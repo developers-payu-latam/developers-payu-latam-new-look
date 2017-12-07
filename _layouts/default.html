@@ -41,7 +41,8 @@
 				<input type="submit" value="Search" style="display: none;">
 			</form>
 
-			<nav {% if site.show_full_navigation %}class="full-navigation"{% endif %}>
+			<!-- <nav {% if site.show_full_navigation %}class="full-navigation"{% endif %}> -->
+			<nav>
 				<ul>
 					<li class="nav-item top-level {% if page.url == '/' %}current{% endif %}">
 						{% assign home = site.html_pages | where: 'url', '/' | first %}
@@ -75,7 +76,7 @@
 
 		<section class="main">
 			<div class="page-header">
-				<h2>{% if page.category %}{{ page.category }}{% else %}{{ site.display_title }}{% endif %}</h2>
+				<h2>{% if page.category %}{{ page.category }}{% else %}{{ site.title }}{% endif %}</h2>
 				<h3>{{ page.title }}</h3>
 			</div>
 			<article class="content">
