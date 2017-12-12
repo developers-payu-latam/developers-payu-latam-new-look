@@ -22,22 +22,20 @@ social:
 # -----
 # Build
 
-permalink: pretty
-
+collections:
+  documentation:
+    title: Documentation
+    position: 1
+  api:
+    title: APIs
+    position: 2
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-feed
 
 exclude:
-  - Gemfile
-  - Gemfile.lock
-
-collections:
-  docs:
-    title: Documentation
-    permalink: /:path/
-    output: true
+  - readme.md
+  - LICENCE
 
 defaults:
   -
@@ -45,31 +43,9 @@ defaults:
       path: ""
     values:
       layout: default
-  -
-    scope:
-      path: ""
-      type: "docs"
-    values:
-      seo:
-        type: Article
-      _comments:
-        category: Group navigation links with this field
-        order: Used to sort links in the navigation
-      _options:
-        content:
-          width: 800
-          height: 2000
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      _comments:
-        type: Marks the impact of this release
-
-# -----------
-# PayU
 
 types:
-  - minor
-  - major
+  - get
+  - put
+  - delete
+  - post
