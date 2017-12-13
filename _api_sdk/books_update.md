@@ -3,24 +3,6 @@ title: /books/:id
 position: 1.4
 type: put
 description: Update Book
-right_code: |
-  ~~~ json
-  {
-    "id": 3,
-    "title": "The Book Stealer",
-    "score": 5,
-    "dateAdded": "5/1/2015"
-  }
-  ~~~
-  {: title="Response" }
-
-  ~~~ json
-  {
-    "error": true,
-    "message": "Book doesn't exist"
-  }
-  ~~~
-  {: title="Error" }
 ---
 
 title

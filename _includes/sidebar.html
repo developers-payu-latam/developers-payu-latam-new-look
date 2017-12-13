@@ -5,23 +5,23 @@
 			<a href="/">{{ home.title }}</a>
 		</li>
 	</ul>
-	{% assign sorted_collections = site.collections | sort: "position" %}
-	{% for collection in sorted_collections %}
-		{% if collection.label != "posts" %}
-			<section>
-				<h6>{{ collection.title }}</h6>
-				<ul>
-					{% assign sorted_docs = collection.docs | sort: "position" %}
-					{% for doc in sorted_docs %}
-						<li>
-							<a href="{% if page.url != '/' %}/{% endif %}#{{ doc.id | replace: '/', '' | replace: '.', ''}}">
-								{{ doc.title }}
-								{% if doc.type %}<span class="endpoint {{ doc.type }}"></span>{% endif %}
-							</a>
-						</li>
-					{% endfor %}
-				</ul>
-			</section>
-		{% endif %}
-	{% endfor %}
+	{% if site.data.directory.toc2[0] %}
+	  {% for item in site.data.directory.toc2 %}
+	    <h3>{{ item.title }}</h3>
+	      {% if item.subfolderitems[0] %}
+	        <ul>
+	          {% for entry in item.subfolderitems %}
+	              <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+	                {% if entry.subsubfolderitems[0] %}
+	                  <ul>
+	                  {% for subentry in entry.subsubfolderitems %}
+	                      <li><a href="{{ subentry.url }}">{{ subentry.page }}</a></li>
+	                  {% endfor %}
+	                  </ul>
+	                {% endif %}
+	          {% endfor %}
+	        </ul>
+	      {% endif %}
+	    {% endfor %}
+	{% endif %}
 </div>

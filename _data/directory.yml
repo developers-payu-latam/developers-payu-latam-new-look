@@ -1,0 +1,19 @@
+toc2:
+  - title: WebCheckout
+    subfolderitems:
+      - page: Argentina
+        url: /#api_sdkbooks_get
+      - page: Brasil
+        url: /
+        subsubfolderitems:
+          - page: Pagos
+            url: /
+          - page: Consultas
+            url: /
+  - title: API y SDK
+    subfolderitems:
+      - page: Argentina
+        url: /#api_sdkbooks_get
+        subsubfolderitems:
+          - page: Pagos
+            url: /#api_sdkbooks_get

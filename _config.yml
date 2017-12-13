@@ -23,12 +23,15 @@ social:
 # Build
 
 collections:
-  documentation:
-    title: Documentation
+  webcheckout:
+    title: WebCheckout
     position: 1
-  api:
-    title: APIs
+  api_sdk:
+    title: API y SDK
     position: 2
+  administrativo:
+    title: Módulo Administrativo
+    position: 3
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
