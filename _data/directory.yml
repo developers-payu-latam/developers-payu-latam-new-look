@@ -2,14 +2,37 @@ toc2:
   - title: WebCheckout
     subfolderitems:
       - page: Argentina
-        url: /#api_sdkbooks_get
-      - page: Brasil
-        url: /
         subsubfolderitems:
-          - page: Pagos
-            url: /
-          - page: Consultas
-            url: /
+          - page: Formulario de pago
+            url: /#webcheckoutargentinapayment_form
+          - page: Página de respuesta
+            url: /#webcheckoutargentinaresponse_page
+          - page: Página de confirmacion
+            url: /#webcheckoutargentinaconfirmation_page
+      - page: Brasil
+        subsubfolderitems:
+          - page: Formulario de pago
+            url: /#webcheckoutargentinapayment_form
+          - page: Página de respuesta
+            url: /#webcheckoutargentinaresponse_page
+          - page: Página de confirmacion
+            url: /#webcheckoutargentinaconfirmation_page
+      - page: Colombia
+        subsubfolderitems:
+          - page: Formulario de pago
+            url: /#webcheckoutargentinapayment_form
+          - page: Página de respuesta
+            url: /#webcheckoutargentinaresponse_page
+          - page: Página de confirmacion
+            url: /#webcheckoutargentinaconfirmation_page
+      - page: Perú
+        subsubfolderitems:
+          - page: Formulario de pago
+            url: /#webcheckoutargentinapayment_form
+          - page: Página de respuesta
+            url: /#webcheckoutargentinaresponse_page
+          - page: Página de confirmacion
+            url: /#webcheckoutargentinaconfirmation_page
   - title: API y SDK
     subfolderitems:
       - page: Argentina
