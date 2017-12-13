@@ -1,12 +1,12 @@
 ---
-title: Search
+title: Buscar
 sitemap: false
 permalink: /search/
 ---
 
 <div class="search-page">
 	<h2>Search Results</h2>
-	
+
 	<p><span id="search-process">Loading</span> results <span id="search-query-container" style="display: none;">for "<strong id="search-query"></strong>"</span></p>
 	<ul id="search-results"></ul>
 </div>

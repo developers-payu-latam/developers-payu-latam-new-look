@@ -3,6 +3,49 @@ html, body {
 	margin: 0;
 }
 
+/* General settings */
+/*fonts*/
+@font-face {
+    font-family:'amplesoft-bold';
+    src:url('/fonts/amplesoft-bold.eot');
+    src:url('/fonts/amplesoft-bold.eot?#iefix') format('embedded-opentype'),url('/fonts/amplesoft-bold.ttf') format('truetype'),url('/fonts/amplesoft-bold.svg#amplesoft-boldbold') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face {
+    font-family:'amplesoft-medium';
+    src:url('/fonts/amplesoft-medium.eot');
+    src:url('/fonts/amplesoft-medium.eot?#iefix') format('embedded-opentype'),url('/fonts/amplesoft-medium.ttf') format('truetype'),url('/fonts/amplesoft-medium.svg#amplesoft-mediummedium') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face {
+    font-family:'amplesoft-light';
+    src:url('/fonts/amplesoft-light.eot');
+    src:url('/fonts/amplesoft-light.eot?#iefix') format('embedded-opentype'),url('/fonts/amplesoft-light.ttf') format('truetype'),url('/fonts/amplesoft-light.svg#amplesoft-lightlight') format('svg');
+    font-weight:normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'amplesoft-regular';
+    src:url('/fonts/amplesoft-regular.eot');
+    src:url('/fonts/amplesoft-regular.eot?#iefix') format('embedded-opentype'),url('/fonts/amplesoft-regular.woff2') format('woff2'),url('/fonts/amplesoft-regular.woff') format('woff'),url('/fonts/amplesoft-regular.ttf') format('truetype'),url('/fonts/amplesoft-regular.svg#amplesoft-regularregular') format('svg');
+    font-weight:normal;
+    font-style: normal;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('/fonts/fontawesome-webfont.eot?v=4.0.3');
+    src: url('/fonts/fontawesome-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'), url('/fonts/fontawesome-webfont.woff?v=4.0.3') format('woff'), url('/fonts/fontawesome-webfont.ttf?v=4.0.3')  format('truetype'), url('/fonts/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular') format('svg');
+    font-weight:normal;
+    font-style: normal;
+}
+
+/*fonts end*/
+
 body, .main {
 	box-sizing: border-box;
 	min-height: 100vh;
@@ -37,8 +80,8 @@ body {
 	font-size: 1.8em;
 	line-height: 1.6;
 	font-weight: 400;
-	font-family: system, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Lucida Grande", sans-serif;
-	background: #fbfbfb;
+	font-family: system, -apple-system, BlinkMacSystemFont, 'amplesoft-light', "Lucida Grande", sans-serif;
+	background: #ffffff;
 
 	&.nav-open {
 		overflow: hidden;
@@ -74,7 +117,9 @@ th {
 h1, h2, h3, h4, h5, h6 {
 	margin-top: 0;
 	font-weight: 300;
+ font-family:'amplesoft-medium',sans-serif;
 }
+
 
 h1 { font-size: 4.0rem; line-height: 1.2;	letter-spacing: -.1rem;}
 h2 { font-size: 3.6rem; line-height: 1.25; letter-spacing: -.1rem; }
@@ -434,8 +479,9 @@ header {
 		border-bottom: 1px solid rgba(0, 0, 0, 0.075);
 
 		img {
-			height: 26px;
-			margin: 0 18px;
+			height: 70px;
+			width: 195px;
+			margin: 0 15px;
 		}
 	}
 
