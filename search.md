@@ -1,13 +1,13 @@
 ---
 title: Buscar
 sitemap: false
-permalink: /search/
+permalink: /busqueda/
 ---
 
 <div class="search-page">
-	<h2>Search Results</h2>
+	<h2>Resultados de su Búsqueda</h2>
 
-	<p><span id="search-process">Loading</span> results <span id="search-query-container" style="display: none;">for "<strong id="search-query"></strong>"</span></p>
+	<p><span id="search-process">Cargando</span> resultados <span id="search-query-container" style="display: none;">para "<strong id="search-query"></strong>"</span></p>
 	<ul id="search-results"></ul>
 </div>
 

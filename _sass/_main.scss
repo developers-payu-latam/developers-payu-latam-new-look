@@ -201,7 +201,7 @@ dl dd:after {
 
 .sidebar h6 {
 	line-height: 1em;
-	font-size: 1.5rem;
+	font-size: 1.8rem;
 	letter-spacing: 1px;
 	color: #888;
 	font-weight: bold;
@@ -211,6 +211,7 @@ dl dd:after {
 	padding: 20px 20px 0 20px;
 	white-space:nowrap;
 	overflow-y: auto;
+	font-size: 1.6rem;
 
 	section {
 			padding: 10px 0;
@@ -230,7 +231,7 @@ dl dd:after {
 	a {
 		color: #777;
 		text-decoration: none;
-		font-size: .90em;
+		font-size: 1.4rem;
 		display: block;
 		width: 100%;
 		text-overflow: ellipsis;
@@ -573,4 +574,26 @@ header {
 	text-align: center;
 	font-size: .6em;
 	margin: 30px 0 0 0;
+}
+
+details {
+    summary {
+        &::before {
+            font-family: FontAwesome;
+            font-size: 1.0em;
+            content: "";
+            float: left;
+            margin-right: 0.4em;
+        }
+        &::-webkit-details-marker {
+            color: green;
+        }
+        margin-bottom: 0.2em;
+    }
+    &.open, &[open] {
+        summary::before {
+            content: "";
+        }
+    }
+    color: grey;
 }
