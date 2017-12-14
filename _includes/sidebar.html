@@ -2,11 +2,13 @@
 
 	{% if site.data.directory.toc2[0] %}
 	  {% for item in site.data.directory.toc2 %}
-	    <h6><b>{{ item.title }}</b></h6>
+		<details>
+	    <summary>{{ item.title }}</summary>
 	      {% if item.subfolderitems[0] %}
 	        <ul>
 	          {% for entry in item.subfolderitems %}
-	              <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+						<details>
+	              <summary>{{ entry.page }}</summary>
 	                {% if entry.subsubfolderitems[0] %}
 	                  <ul>
 	                  {% for subentry in entry.subsubfolderitems %}
@@ -14,9 +16,11 @@
 	                  {% endfor %}
 	                  </ul>
 	                {% endif %}
+								</details>
 	          {% endfor %}
 	        </ul>
 	      {% endif %}
+			</details>
 	    {% endfor %}
 	{% endif %}
 </div>
