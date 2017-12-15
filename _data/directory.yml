@@ -12,27 +12,53 @@ toc2:
       - page: Brasil
         subsubfolderitems:
           - page: Formulario de pago
-            url: /#webcheckoutargentinapayment_form
+            url: /#webcheckoutbrazilpayment_form
           - page: Página de respuesta
-            url: /#webcheckoutargentinaresponse_page
+            url: /#webcheckoutbrazilresponse_page
           - page: Página de confirmacion
-            url: /#webcheckoutargentinaconfirmation_page
+            url: /#webcheckoutbrazilconfirmation_page
       - page: Colombia
         subsubfolderitems:
           - page: Formulario de pago
-            url: /#webcheckoutargentinapayment_form
+            url: /#webcheckoutcolombiapayment_form
           - page: Página de respuesta
-            url: /#webcheckoutargentinaresponse_page
+            url: /#webcheckoutcolombiaresponse_page
           - page: Página de confirmacion
-            url: /#webcheckoutargentinaconfirmation_page
+            url: /#webcheckoutcolombiaconfirmation_page
       - page: Perú
         subsubfolderitems:
           - page: Formulario de pago
-            url: /#webcheckoutargentinapayment_form
+            url: /#webcheckoutperupayment_form
           - page: Página de respuesta
-            url: /#webcheckoutargentinaresponse_page
+            url: /#webcheckoutperuresponse_page
           - page: Página de confirmacion
-            url: /#webcheckoutargentinaconfirmation_page
+            url: /#webcheckoutperuconfirmation_page
+      - page: Panama
+        subsubfolderitems:
+          - page: Formulario de pago
+            url: /#webcheckoutpanamapayment_form
+          - page: Página de respuesta
+            url: /#webcheckoutpanamaresponse_page
+          - page: Página de confirmacion
+            url: /#webcheckoutpanamaconfirmation_page
+      - page: México
+        subsubfolderitems:
+          - page: Formulario de pago
+            url: /#webcheckoutmexicopayment_form
+          - page: Página de respuesta
+            url: /#webcheckoutmexicoresponse_page
+          - page: Página de confirmacion
+            url: /#webcheckoutmexicoconfirmation_page
+      - page: Chile
+        subsubfolderitems:
+          - page: Formulario de pago
+            url: /#webcheckoutchilepayment_form
+          - page: Página de respuesta
+            url: /#webcheckoutchileresponse_page
+          - page: Página de confirmacion
+            url: /#webcheckoutchileconfirmation_page
+          - page: Errores comunes
+            url: /#webcheckoutcommon_errorserrors
   - title: API y SDK
     subfolderitems:
       - page: Argentina
@@ -41,4 +67,14 @@ toc2:
           - page: Pagos
             url: /#api_sdkbooks_get
   - title: Módulo Administrativo
+  - title: Herramientas de ayuda
+    subfolderitems:
+    - page: Compara tu firma
+      subsubfolderitems:
+        - page: Petición de pago
+          url: /#toolssignaturepayment_request
+        - page: Página de respuesta
+          url: /#toolssignatureresponse_page
+        - page: Página de confirmación
+          url: /#toolssignatureconfirmation_page
   - title: Ayuda y Soporte
