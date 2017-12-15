@@ -57,8 +57,8 @@ toc2:
             url: /#webcheckoutchileresponse_page
           - page: Página de confirmacion
             url: /#webcheckoutchileconfirmation_page
-          - page: Errores comunes
-            url: /#webcheckoutcommon_errorserrors
+      - page: Errores comunes
+        url: /#webcheckoutcommon_errorserrors
   - title: API y SDK
     subfolderitems:
       - page: Argentina
