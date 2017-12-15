@@ -57,15 +57,20 @@ toc2:
             url: /#webcheckoutchileresponse_page
           - page: Página de confirmacion
             url: /#webcheckoutchileconfirmation_page
-      - page: Errores comunes
-        url: /#webcheckoutcommon_errorserrors
+          - page: Errores comunes
+            url: /#webcheckoutcommon_errorserrors
   - title: API y SDK
     subfolderitems:
       - page: Argentina
-        url: /#api_sdkbooks_get
         subsubfolderitems:
-          - page: Pagos
-            url: /#api_sdkbooks_get
+          - page: Metodos de Pagos
+            url: /#api_sdkargentinapayment_methods
+          - page: Promociones
+            url: /#api_sdkargentinapromotions
+          - page: Pagos recurrentes
+            url: /#api_sdkargentinarecurring_payments
+          - page: Tokenización
+            url: /#api_sdkargentinatokenization
   - title: Módulo Administrativo
   - title: Herramientas de ayuda
     subfolderitems:
