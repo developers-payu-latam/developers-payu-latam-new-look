@@ -32,6 +32,12 @@ collections:
   administrativo:
     title: Módulo Administrativo
     position: 3
+  tools:
+    title: Herramientas de Ayuda
+    position: 4
+  help:
+    title: Ayuda y Soporte
+    position: 5
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
