@@ -1,7 +1,8 @@
 ---
-title: Errors
-position: 4
+title: Errores Comunes
+position: 2.31
 ---
+22
 
 | Code | Name        | Description                      |
 |------|-------------|----------------------------------|

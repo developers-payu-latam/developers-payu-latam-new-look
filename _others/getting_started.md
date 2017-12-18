@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-position: 1
+position: 1.1.1
 ---
 
 Welcome to our API.

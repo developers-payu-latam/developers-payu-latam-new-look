@@ -1,6 +1,6 @@
 ---
 title: Generador de firmas pagina de confirmación
-position: 1.1
+position: 6.3
 ---
 
-Aqui se coloca los campos para general la firma de la pagina de confirmación
+3 Aqui se coloca los campos para general la firma de la pagina de confirmación

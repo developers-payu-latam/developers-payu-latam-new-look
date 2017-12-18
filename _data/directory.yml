@@ -1,77 +1,306 @@
 toc2:
-  - title: WebCheckout
+  - title: WebCheckout #item
     subfolderitems:
-      - page: Argentina
+      - page: Introducción
+        url: /#webcheckoutothersintro
+      - page: Integración #entry
         subsubfolderitems:
-          - page: Formulario de pago
-            url: /#webcheckoutargentinapayment_form
-          - page: Página de respuesta
-            url: /#webcheckoutargentinaresponse_page
-          - page: Página de confirmacion
-            url: /#webcheckoutargentinaconfirmation_page
-      - page: Brasil
+          - page: Argentina #subentry
+            subsubsubfolderitems:
+              - page: Formulario de pago #subsubentry
+                url: /#webcheckoutargentinapayment_form
+              - page: Página de respuesta
+                url: /#webcheckoutargentinaresponse_page
+              - page: Página de confirmacion
+                url: /#webcheckoutargentinaconfirmation_page
+          - page: Brasil
+            subsubsubfolderitems:
+              - page: Formulario de pago
+                url: /#webcheckoutbrazilpayment_form
+              - page: Página de respuesta
+                url: /#webcheckoutbrazilresponse_page
+              - page: Página de confirmacion
+                url: /#webcheckoutbrazilconfirmation_page
+          - page: Chile
+            subsubsubfolderitems:
+              - page: Formulario de pago
+                url: /#webcheckoutchilepayment_form
+              - page: Página de respuesta
+                url: /#webcheckoutchileresponse_page
+              - page: Página de confirmacion
+                url: /#webcheckoutchileconfirmation_page
+          - page: Colombia
+            subsubsubfolderitems:
+              - page: Formulario de pago
+                url: /#webcheckoutcolombiapayment_form
+              - page: Página de respuesta
+                url: /#webcheckoutcolombiaresponse_page
+              - page: Página de confirmacion
+                url: /#webcheckoutcolombiaconfirmation_page
+          - page: México
+            subsubsubfolderitems:
+              - page: Formulario de pago
+                url: /#webcheckoutmexicopayment_form
+              - page: Página de respuesta
+                url: /#webcheckoutmexicoresponse_page
+              - page: Página de confirmacion
+                url: /#webcheckoutmexicoconfirmation_page
+          - page: Panamá
+            subsubsubfolderitems:
+              - page: Formulario de pago
+                url: /#webcheckoutpanamapayment_form
+              - page: Página de respuesta
+                url: /#webcheckoutpanamaresponse_page
+              - page: Página de confirmacion
+                url: /#webcheckoutpanamaconfirmation_page
+          - page: Perú
+            subsubsubfolderitems:
+              - page: Formulario de pago
+                url: /#webcheckoutperupayment_form
+              - page: Página de respuesta
+                url: /#webcheckoutperuresponse_page
+              - page: Página de confirmacion
+                url: /#webcheckoutperuconfirmation_page
+      - page: Carritos de compra
         subsubfolderitems:
-          - page: Formulario de pago
-            url: /#webcheckoutbrazilpayment_form
-          - page: Página de respuesta
-            url: /#webcheckoutbrazilresponse_page
-          - page: Página de confirmacion
-            url: /#webcheckoutbrazilconfirmation_page
-      - page: Colombia
+          - page: Magento
+          - page: Drupal
+          - page: VirtueMart
+            subsubsubfolderitems:
+              - page: Versión 2.0
+              - page: Versión 3.0
+          - page: OsCommerce
+          - page: WooCommerce
+          - page: OpenCart
+            subsubsubfolderitems:
+              - page: Versión 1.5
+              - page: Versión 2.0
+      - page: Aliados
         subsubfolderitems:
-          - page: Formulario de pago
-            url: /#webcheckoutcolombiapayment_form
-          - page: Página de respuesta
-            url: /#webcheckoutcolombiaresponse_page
-          - page: Página de confirmacion
-            url: /#webcheckoutcolombiaconfirmation_page
-      - page: Perú
-        subsubfolderitems:
-          - page: Formulario de pago
-            url: /#webcheckoutperupayment_form
-          - page: Página de respuesta
-            url: /#webcheckoutperuresponse_page
-          - page: Página de confirmacion
-            url: /#webcheckoutperuconfirmation_page
-      - page: Panama
-        subsubfolderitems:
-          - page: Formulario de pago
-            url: /#webcheckoutpanamapayment_form
-          - page: Página de respuesta
-            url: /#webcheckoutpanamaresponse_page
-          - page: Página de confirmacion
-            url: /#webcheckoutpanamaconfirmation_page
-      - page: México
-        subsubfolderitems:
-          - page: Formulario de pago
-            url: /#webcheckoutmexicopayment_form
-          - page: Página de respuesta
-            url: /#webcheckoutmexicoresponse_page
-          - page: Página de confirmacion
-            url: /#webcheckoutmexicoconfirmation_page
-      - page: Chile
-        subsubfolderitems:
-          - page: Formulario de pago
-            url: /#webcheckoutchilepayment_form
-          - page: Página de respuesta
-            url: /#webcheckoutchileresponse_page
-          - page: Página de confirmacion
-            url: /#webcheckoutchileconfirmation_page
+          - page: PrestaShop
+          - page: Shopify
+          - page: Vtex
+          - page: Otros
       - page: Errores comunes
         url: /#webcheckoutcommon_errorserrors
   - title: API y SDK
     subfolderitems:
-      - page: Argentina
+      - page: Configuraciones iniciales
+        url: /#apiothersfirstconfigurations
+      - page: Integración API
         subsubfolderitems:
-          - page: Metodos de Pagos
-            url: /#api_sdkargentinapayment_methods
-          - page: Promociones
-            url: /#api_sdkargentinapromotions
-          - page: Pagos recurrentes
-            url: /#api_sdkargentinarecurring_payments
-          - page: Tokenización
-            url: /#api_sdkargentinatokenization
+          - page: Argentina
+            subsubsubfolderitems:
+              - page: Metodos de Pagos
+                url: /#apiargentinapayment_methods
+              - page: Promociones
+                url: /#apiargentinapromotions
+              - page: Pagos recurrentes
+                url: /#apiargentinarecurring_payments
+              - page: Tokenización
+                url: /#apiargentinatokenization
+          - page: Brasil
+            subsubsubfolderitems:
+              - page: Metodos de Pagos
+                url: /#apibrazilpayment_methods
+              - page: Promociones
+                url: /#apibrazilpromotions
+              - page: Pagos recurrentes
+                url: /#apibrazilrecurring_payments
+              - page: Tokenización
+                url: /#apibraziltokenization
+          - page: Chile
+            subsubsubfolderitems:
+              - page: Metodos de Pagos
+                url: /#apichilepayment_methods
+              - page: Promociones
+                url: /#apichilepromotions
+              - page: Pagos recurrentes
+                url: /#apichilerecurring_payments
+              - page: Tokenización
+                url: /#apichiletokenization
+          - page: Colombia
+            subsubsubfolderitems:
+              - page: Metodos de Pagos
+                url: /#apicolombiapayment_methods
+              - page: Promociones
+                url: /#apicolombiapromotions
+              - page: Pagos recurrentes
+                url: /#apicolombiarecurring_payments
+              - page: Tokenización
+                url: /#apicolombiatokenization
+          - page: México
+            subsubsubfolderitems:
+              - page: Metodos de Pagos
+                url: /#apimexicopayment_methods
+              - page: Promociones
+                url: /#apimexicopromotions
+              - page: Pagos recurrentes
+                url: /#apimexicorecurring_payments
+              - page: Tokenización
+                url: /#apimexicotokenization
+          - page: Panamá
+            subsubsubfolderitems:
+              - page: Metodos de Pagos
+                url: /#apipanamapayment_methods
+              - page: Promociones
+                url: /#apipanamapromotions
+              - page: Pagos recurrentes
+                url: /#apipanamarecurring_payments
+              - page: Tokenización
+                url: /#apipanamatokenization
+          - page: Perú
+            subsubsubfolderitems:
+              - page: Metodos de Pagos
+                url: /#apiperupayment_methods
+              - page: Promociones
+                url: /#apiperupromotions
+              - page: Pagos recurrentes
+                url: /#apiperurecurring_payments
+              - page: Tokenización
+                url: /#apiperutokenization
+      - page: Integración SDK
+        subsubfolderitems:
+          - page: Argentina
+            subsubsubfolderitems:
+              - page: Metodos de Pagos
+                url: /#sdkargentinapayment_methods
+              - page: Promociones
+                url: /#sdkargentinapromotions
+              - page: Pagos recurrentes
+                url: /#sdkargentinarecurring_payments
+              - page: Tokenización
+                url: /#sdkargentinatokenization
+          - page: Brasil
+            subsubsubfolderitems:
+              - page: Metodos de Pagos
+                url: /#sdkbrazilpayment_methods
+              - page: Promociones
+                url: /#sdkbrazilpromotions
+              - page: Pagos recurrentes
+                url: /#sdkbrazilrecurring_payments
+              - page: Tokenización
+                url: /#sdkbraziltokenization
+          - page: Chile
+            subsubsubfolderitems:
+              - page: Metodos de Pagos
+                url: /#sdkchilepayment_methods
+              - page: Promociones
+                url: /#sdkchilepromotions
+              - page: Pagos recurrentes
+                url: /#sdkchilerecurring_payments
+              - page: Tokenización
+                url: /#sdkchiletokenization
+          - page: Colombia
+            subsubsubfolderitems:
+              - page: Metodos de Pagos
+                url: /#sdkcolombiapayment_methods
+              - page: Promociones
+                url: /#sdkcolombiapromotions
+              - page: Pagos recurrentes
+                url: /#sdkcolombiarecurring_payments
+              - page: Tokenización
+                url: /#sdkcolombiatokenization
+          - page: México
+            subsubsubfolderitems:
+              - page: Metodos de Pagos
+                url: /#sdkmexicopayment_methods
+              - page: Promociones
+                url: /#sdkmexicopromotions
+              - page: Pagos recurrentes
+                url: /#sdkmexicorecurring_payments
+              - page: Tokenización
+                url: /#sdkmexicotokenization
+          - page: Panamá
+            subsubsubfolderitems:
+              - page: Metodos de Pagos
+                url: /#sdkpanamapayment_methods
+              - page: Promociones
+                url: /#sdkpanamapromotions
+              - page: Pagos recurrentes
+                url: /#sdkpanamarecurring_payments
+              - page: Tokenización
+                url: /#sdkpanamatokenization
+          - page: Perú
+            subsubsubfolderitems:
+              - page: Metodos de Pagos
+                url: /#sdkperupayment_methods
+              - page: Promociones
+                url: /#sdkperupromotions
+              - page: Pagos recurrentes
+                url: /#sdkperurecurring_payments
+              - page: Tokenización
+                url: /#sdkperutokenization
+      - page: Errores comunes
+        url: /#apicommon_errorserrors
   - title: Módulo Administrativo
+    subfolderitems:
+      - page: Administración de Cuenta
+        subsubfolderitems:
+          - page: Introducción
+            url: /#administrativeadminintro
+          - page: Completar registro
+            url: /#administrativeadminconfig
+          - page: Consultar Saldos
+            subsubsubfolderitems:
+              - page: Consulta
+              - page: Movimientos
+              - page: Extracto
+          - page: Transferencias
+            subsubsubfolderitems:
+              - page: Datos Bancarios
+              - page: Registro de terceros
+              - page: Transferir
+              - page: Programar transferencias
+              - page: Consuta de estado
+          - page: Reportes
+            subsubsubfolderitems:
+              - page: Órdenes
+              - page: Transacciones
+              - page: Reporte gráfico
+              - page: Retenciones
+              - page: Transferencias
+              - page: Recaúdo en Brasil
+          - page: Reembolsos
+            subsubsubfolderitems:
+              - page: Qué son y cómo realizarlos
+              - page: Resultados de solicitud
+              - page: Consultar estado
+          - page: Disputas
+            url: /#administrativeadmindisp
+          - page: Actualización de datos
+            subsubsubfolderitems:
+              - page: Cambiar clave
+              - page: Información de contacto
+              - page: Datos bancarios
+              - page: Información de ventas
+              - page: Formato de tiempo y moneda
+          - page: Configuración de integración
+            subsubsubfolderitems:
+              - page: Información técnica
+              - page: Configuración de cuentas
+      - page: Herramientas del vendedor
+        subsubfolderitems:
+          - page: Botón de pagos
+          - page: Solicitudes de pago
+          - page: Terminal virtual
+          - page: Cupones de pago
+          - page: Tarjetas de cobranza
+          - page: Tokenización
+            subsubsubfolderitems:
+              - page: ¿Cómo funciona?
+              - page: Registro individual
+              - page: Registro masivo
+              - page: Cobro individual
+              - page: Cobro masivo
+              - page: Consulta
+              - page: Eliminación individual
+              - page: Eliminación masiva
+          - page: Pagos recurrentes
+            subsubsubfolderitems:
+              - page: ¿Cómo funciona?
+              - page: Planes
+              - page: Clientes
   - title: Herramientas de ayuda
     subfolderitems:
     - page: Compara tu firma
@@ -83,3 +312,10 @@ toc2:
         - page: Página de confirmación
           url: /#toolssignatureconfirmation_page
   - title: Ayuda y Soporte
+    subfolderitems:
+    - page: FAQ
+      url: /#helpfaq
+    - page: Soporte
+      url: /#helpsupport
+    - page: Foros
+      url: /#helpforum

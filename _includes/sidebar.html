@@ -1,5 +1,12 @@
 <div id="sidebar" class="sidebar">
 
+	<ul>
+		<li class="nav-item top-level {% if page.url == '/' %}current{% endif %}">
+			{% assign home = site.html_pages | where: 'url', '/' | first %}
+			<h6><b><a href="{{ site.baseurl }}/">{{ home.title }}</a></b></h6>
+		</li>
+	</ul>
+  <br/>
 	{% if site.data.directory.toc2[0] %}
 	  {% for item in site.data.directory.toc2 %}
 		<details>
@@ -7,7 +14,7 @@
 	      {% if item.subfolderitems[0] %}
 	        <ul>
 	          {% for entry in item.subfolderitems %}
-							{% if entry.page == "Errores comunes" %}
+							{% if entry.page == "Errores comunes" or entry.page == "Soporte" or entry.page == "Foros" or entry.page == "FAQ" or entry.page == "Configuraciones iniciales" or entry.page == "Introducción" %}
 								<a href="{{ entry.url }}">{{ entry.page }}</a>
 							{% else %}
 								<details>
@@ -15,7 +22,20 @@
 			                {% if entry.subsubfolderitems[0] %}
 			                  <ul>
 			                  {% for subentry in entry.subsubfolderitems %}
-			                      <a href="{{ subentry.url }}">{{ subentry.page }}</a>
+													{% if subentry.page == "Petición de pago" or subentry.page == "Página de respuesta" or subentry.page == "Página de confirmación" or subentry.page == "Botón de pagos" or subentry.page == "Solicitudes de pago" or subentry.page == "Terminal virtual" or subentry.page == "Cupones de pago" or subentry.page == "Tarjetas de cobranza" or subentry.page == "Introducción" or subentry.page == "Completar registro" or subentry.page == "Magento" or subentry.page == "Drupal" or subentry.page == "OsCommerce" or subentry.page == "PrestaShop" or subentry.page == "Shopify" or subentry.page == "WooCommerce" or subentry.page == "Otros" or subentry.page == "Vtex" %}
+														<a href="{{ subentry.url }}">{{ subentry.page }}</a>
+													{% else %}
+														<details>
+				                      <summary>{{ subentry.page }}</summary>
+															{% if subentry.subsubsubfolderitems[0] %}
+																<ul>
+																{% for subsubentry in subentry.subsubsubfolderitems %}
+																	<li><a href="{{ subsubentry.url }}">{{ subsubentry.page }}</a></li>
+																{% endfor %}
+																</ul>
+															{% endif %}
+														</details>
+													{% endif %}
 			                  {% endfor %}
 			                  </ul>
 			                {% endif %}
@@ -27,4 +47,10 @@
 				</details>
 		  {% endfor %}
 	{% endif %}
+<br/>
+	<ul>
+		<li>
+			<h6><b><a href="http://status.payulatam.com/" target=_blank>PayU Latam Status</a></b></h6>
+		</li>
+	</ul>
 </div>

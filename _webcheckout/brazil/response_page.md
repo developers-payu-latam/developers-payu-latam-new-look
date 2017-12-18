@@ -1,6 +1,6 @@
 ---
 title: Página de respuesta
-position: 1.2
+position: 2.14
 ---
 
-WebCheckout - Pagina de respuesta
+5 WebCheckout - Pagina de respuesta

@@ -1,7 +1,6 @@
 ---
 title: Formulario de pago
-position: 1.1
-description: Payment form
+position: 2.13
 ---
 
-WebCheckout - formulario de pago
+4 WebCheckout - formulario de pago

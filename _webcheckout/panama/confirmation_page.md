@@ -1,6 +1,6 @@
 ---
-title: Pagina de confirmación
-position: 1.3
+title: Página de confirmación
+position: 2.27
 ---
 
-WebCheckout - Pagina de confirmación
+18 WebCheckout - Pagina de confirmación
