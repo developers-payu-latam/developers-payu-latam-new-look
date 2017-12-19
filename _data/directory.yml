@@ -85,10 +85,12 @@ toc2:
         url: /#webcheckoutcommon_errorserrors
   - title: API y SDK
     subfolderitems:
-      - page: Configuraciones iniciales
-        url: /#apiothersfirstconfigurations
+      - page: Introducción
+        url: /#apiintroduction
       - page: Integración API
         subsubfolderitems:
+          - page: Configuraciones iniciales
+            url : /#apiothersfirstconfigurations
           - page: Argentina
             subsubsubfolderitems:
               - page: Metodos de Pagos
@@ -161,6 +163,8 @@ toc2:
                 url: /#apiperutokenization
       - page: Integración SDK
         subsubfolderitems:
+          - page: Configuraciones iniciales
+            url : /#sdkothersfirstconfigurations
           - page: Argentina
             subsubsubfolderitems:
               - page: Metodos de Pagos
@@ -231,6 +235,16 @@ toc2:
                 url: /#sdkperurecurring_payments
               - page: Tokenización
                 url: /#sdkperutokenization
+      - page: API de Consultas
+        subsubfolderitems:
+          - page: Introducción
+            url: /#querysquery_introduction
+          - page: Consulta por referencia
+            url: /#querysquery_by_referencecode
+          - page: Consulta por orden
+            url: /#querysquery_by_orderid
+          - page: Consulta por transacción
+            url: /#querysquery_by_transactionid
       - page: Errores comunes
         url: /#apicommon_errorserrors
   - title: Módulo Administrativo
