@@ -61,8 +61,6 @@ toc2:
                 url: /#webcheckoutperuresponse_page
               - page: Página de confirmacion
                 url: /#webcheckoutperuconfirmation_page
-          - page: Sandbox
-            url: /#webcheckoutotherssandbox
       - page: Carritos de compra
         subsubfolderitems:
           - page: Magento
@@ -295,6 +293,7 @@ toc2:
             subsubsubfolderitems:
               - page: Información técnica
               - page: Configuración de cuentas
+                url: /#administrativeintegrationaccount_config
       - page: Herramientas del vendedor
         subsubfolderitems:
           - page: Botón de pagos
