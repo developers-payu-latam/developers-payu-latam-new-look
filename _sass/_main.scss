@@ -97,6 +97,34 @@ body {
 	}
 }
 
+.nobordertable {
+	table, th, td {
+		border-style: hidden;
+		border-collapse: collapse;
+		margin: 0 0 0 0;
+		vertical-align: top;
+	}
+}
+
+.nobordertablecentered {
+	table, th, td {
+		border-style: hidden;
+		border-collapse: collapse;
+		margin: 0 0 0 0;
+		vertical-align: center;
+	}
+}
+
+.nobordertablecenterf {
+	table, th, td {
+		border-style: hidden;
+		border-collapse: collapse;
+		margin: 0 0 0 0;
+		vertical-align: center;
+		text-align: center;
+	}
+}
+
 table {
 	border: 1px solid #E1E1E1;
 	margin: 0 0 20px 0;
@@ -117,7 +145,7 @@ th {
 h1, h2, h3, h4, h5, h6 {
 	margin-top: 0;
 	font-weight: 300;
- font-family:'amplesoft-medium',sans-serif;
+  font-family:'amplesoft-medium',sans-serif;
 }
 
 
