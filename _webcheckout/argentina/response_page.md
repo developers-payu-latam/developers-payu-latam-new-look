@@ -1,7 +1,7 @@
 ---
 title: Página de respuesta
 position: 2.12
-description: WebCheckout Argentina
+description: WebCheckout <img src="/images/illustrations/argentina_logo.png" width="50">
 ---
 
 Al finalizar una transacción nuestro sistema enviará al pagador a la página de respuesta. A esta página nuestro sistema envía la información del resultado de la transacción mediante el método **HTTP GET**.
@@ -22,12 +22,16 @@ Lo puedes hacer en la forma de tu elección, lo único que debes hacer es captur
 Te enviaremos la información de la siguiente forma:
 
 ~~~ GET
-http://www.test.com/response.php?merchantId=508029&merchant_name=Test+PayU+Test+comercio&merchant_address=Av+123+Calle+12&telephone=7512354&merchant_url=http%3A%2F%2Fpruebaslapv.xtrweb.com&transactionState=4&lapTransactionState=APPROVED&message=APPROVED&referenceCode=20%2F12%2F2017+14%3A50%3A52&reference_pol=843452712&transactionId=d6c64ea2-0248-474d-9b0f-1b4f0af419d0&description=Pagina+Respuesta&trazabilityCode=d6c64ea2-0248-474d-9b0f-1b4f0af419d0&cus=d6c64ea2-0248-474d-9b0f-1b4f0af419d0&orderLanguage=es&extra1=&extra2=&extra3=&polTransactionState=4&signature=f51dd97bfd35dc707ff90fa450d87aa8&polResponseCode=1&lapResponseCode=APPROVED&risk=.00&polPaymentMethod=263&lapPaymentMethod=MASTERCARD&polPaymentMethodType=2&lapPaymentMethodType=CREDIT_CARD&installmentsNumber=1&TX_VALUE=300.00&TX_TAX=.00&currency=ARS&lng=es&pseCycle=&buyerEmail=nombre.cliente%40test.com&pseBank=&pseReference1=&pseReference2=&pseReference3=&authorizationCode=NPS-011111&processingDate=2017-12-20</td>
+http://www.test.com/response.php?merchantId=508029&merchant_name=Test+PayU+Test+comercio&merchant_address=Av+123+Calle+12&telephone=7512354&merchant_url=http%3A%2F%2Fpruebaslapv.xtrweb.com&transactionState=4&lapTransactionState=APPROVED&message=APPROVED&referenceCode=20%2F12%2F2017+14%3A50%3A52&reference_pol=843452712&transactionId=d6c64ea2-0248-474d-9b0f-1b4f0af419d0&description=Pagina+Respuesta&trazabilityCode=d6c64ea2-0248-474d-9b0f-1b4f0af419d0&cus=d6c64ea2-0248-474d-9b0f-1b4f0af419d0&orderLanguage=es&extra1=&extra2=&extra3=&polTransactionState=4&signature=f51dd97bfd35dc707ff90fa450d87aa8&polResponseCode=1&lapResponseCode=APPROVED&risk=.00&polPaymentMethod=263&lapPaymentMethod=MASTERCARD&polPaymentMethodType=2&lapPaymentMethodType=CREDIT_CARD&installmentsNumber=1&TX_VALUE=300.00&TX_TAX=.00&currency=ARS&lng=es&pseCycle=&buyerEmail=nombre.cliente%40test.com&pseBank=&pseReference1=&pseReference2=&pseReference3=&authorizationCode=NPS-011111&processingDate=2017-12-20
 ~~~
 {: title="GET" }
 
 Te presentamos un ejemplo en PHP de como puedes integrar la página
 
+~~~
+ApiKey~merchantId~referenceCode~new_value~currency~transactionState
+~~~
+{: title="Otro lenguaje" }
 ~~~ php
 <?php
 $ApiKey = "4Vj8eK4rloUd272L48hsrarnUA";
@@ -126,10 +130,6 @@ else
 ?>
 ~~~
 {: title="PHP" }
-~~~
-ApiKey~merchantId~referenceCode~new_value~currency~transactionState
-~~~
-{: title="Signature" }
 
 #### Signature
 

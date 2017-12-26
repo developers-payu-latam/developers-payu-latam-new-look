@@ -1,6 +1,7 @@
 ---
 title: Página de respuesta
-position: 2.26
+position: 2.27
+description: WebCheckout <img src="/images/illustrations/panama-big.png" width="50">
 ---
 
-17 WebCheckout - Pagina de respuesta
+18 WebCheckout - Pagina de respuesta

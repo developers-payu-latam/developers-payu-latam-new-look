@@ -1,8 +1,9 @@
 ---
 title: Errores Comunes
-position: 2.31
+position: 2.44
+description: Errores que se pueden presentar
 ---
-22
+23
 
 | Code | Name        | Description                      |
 |------|-------------|----------------------------------|

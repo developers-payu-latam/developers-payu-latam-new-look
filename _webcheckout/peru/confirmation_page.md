@@ -1,6 +1,7 @@
 ---
 title: Página de confirmación
-position: 2.30
+position: 2.31
+description: WebCheckout <img src="/images/illustrations/peru.png" width="50">
 ---
 
-21 WebCheckout - Pagina de confirmación
+22 WebCheckout - Pagina de confirmación

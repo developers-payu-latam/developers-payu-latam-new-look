@@ -1,6 +1,7 @@
 ---
 title: Página de respuesta
-position: 2.20
+position: 2.21
+description: WebCheckout <img src="/images/illustrations/colombia.png" width="50">
 ---
 
-11 WebCheckout - Pagina de respuesta
+12 WebCheckout - Pagina de respuesta

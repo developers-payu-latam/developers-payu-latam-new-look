@@ -35,7 +35,7 @@ collections:
   sdk:
     title: SDK
     position: 4
-  administrativo:
+  administrative:
     title: Módulo Administrativo
     position: 5
   tools:

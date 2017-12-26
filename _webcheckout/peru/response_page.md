@@ -1,6 +1,7 @@
 ---
 title: Página de respuesta
-position: 2.29
+position: 2.30
+description: WebCheckout <img src="/images/illustrations/peru.png" width="50">
 ---
 
-20 WebCheckout - Pagina de respuesta
+21 WebCheckout - Pagina de respuesta

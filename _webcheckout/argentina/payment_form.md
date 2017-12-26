@@ -1,6 +1,6 @@
 ---
 title: Formulario de pago
-description: WebCheckout Argentina
+description: WebCheckout <img src="/images/illustrations/argentina_logo.png" width="50">
 position: 2.11
 ---
 

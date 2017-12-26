@@ -63,30 +63,42 @@ toc2:
                 url: /#webcheckoutperuconfirmation_page
       - page: Carritos de compra
         subsubfolderitems:
-          - page: Magento
           - page: Drupal
-          - page: VirtueMart
-            subsubsubfolderitems:
-              - page: Versión 2.0
-              - page: Versión 3.0
-          - page: OsCommerce
-          - page: WooCommerce
+            url: /#webcheckoutshopping_cartsdrupal
+          - page: Magento
+            url: /#webcheckoutshopping_cartsmagento
           - page: OpenCart
             subsubsubfolderitems:
               - page: Versión 1.5
+                url: /#webcheckoutshopping_cartsopen15
               - page: Versión 2.0
+                url: /#webcheckoutshopping_cartsopen2
+          - page: OsCommerce
+            url: /#webcheckoutshopping_cartsoscommerce
+          - page: VirtueMart
+            subsubsubfolderitems:
+              - page: Versión 2.0
+                url: /#webcheckoutshopping_cartsvirtue2
+              - page: Versión 3.0
+                url: /#webcheckoutshopping_cartsvirtue3
+          - page: WooCommerce
+            url: /#webcheckoutshopping_cartswoocommerce
       - page: Aliados
         subsubfolderitems:
           - page: PrestaShop
+            url: /#webcheckoutalliesprestashop
           - page: Shopify
+            url: /#webcheckoutalliesshopify
           - page: Vtex
+            url: /#webcheckoutalliesvtex
           - page: Otros
+            url: /#webcheckoutalliesothers
       - page: Errores comunes
         url: /#webcheckoutcommon_errorserrors
   - title: API y SDK
     subfolderitems:
       - page: Introducción
-        url: /#apiintroduction
+        url: /#apiothersintro
       - page: Integración API
         subsubfolderitems:
           - page: Configuraciones iniciales
@@ -252,70 +264,109 @@ toc2:
       - page: Administración de Cuenta
         subsubfolderitems:
           - page: Introducción
-            url: /#administrativeadminintro
+            url: /#administrativeothersintro
           - page: Completar registro
-            url: /#administrativeadminconfig
+            url: /#administrativeothersregister
           - page: Consultar Saldos
             subsubsubfolderitems:
               - page: Consulta
+                url: /#administrativecheckingbalance
               - page: Movimientos
+                url: /#administrativecheckingmovements
               - page: Extracto
+                url: /#administrativecheckingstatement
           - page: Transferencias
             subsubsubfolderitems:
               - page: Datos Bancarios
+                url: /#administrativetransferbank
               - page: Registro de terceros
+                url: /#administrativetransferthirdparty
               - page: Transferir
+                url: /#administrativetransfertranser
               - page: Programar transferencias
+                url: /#administrativetransferschedule
               - page: Consuta de estado
+                url: /#administrativetransferstatus
           - page: Reportes
             subsubsubfolderitems:
               - page: Órdenes
+                url: /#administrativereportsorders
               - page: Transacciones
+                url: /#administrativereportstransactions
               - page: Reporte gráfico
+                url: /#administrativereportsgraphic
               - page: Retenciones
+                url: /#administrativereportsretentions
               - page: Transferencias
+                url: /#administrativereportstransfers
               - page: Recaúdo en Brasil
+                url: /#administrativereportsaccountingbr
           - page: Reembolsos
             subsubsubfolderitems:
               - page: Qué son y cómo realizarlos
+                url: /#administrativerefundswhatis
               - page: Resultados de solicitud
+                url: /#administrativerefundsresults
               - page: Consultar estado
+                url: /#administrativerefundsstatus
           - page: Disputas
-            url: /#administrativeadmindisp
+            url: /#administrativeothersdispute
           - page: Actualización de datos
             subsubsubfolderitems:
               - page: Cambiar clave
+                url: /#administrativeupdatepassword
               - page: Información de contacto
+                url: /#administrativeupdatecontact
               - page: Datos bancarios
+                url: /#administrativeupdatebank
               - page: Información de ventas
+                url: /#administrativeupdatesales
               - page: Formato de tiempo y moneda
+                url: /#administrativeupdateformat
           - page: Configuración de integración
             subsubsubfolderitems:
               - page: Información técnica
+                url: /#administrativeconfigtechnical
               - page: Configuración de cuentas
-                url: /#administrativeintegrationaccount_config
+                url: /#administrativeconfigaccounts
       - page: Herramientas del vendedor
         subsubfolderitems:
           - page: Botón de pagos
+            url: /#administrativetoolsbutton
           - page: Solicitudes de pago
+            url: /#administrativetoolspaymentrequest
           - page: Terminal virtual
+            url: /#administrativetoolsvirtual
           - page: Cupones de pago
+            url: /#administrativetoolscoupons
           - page: Tarjetas de cobranza
+            url: /#administrativetoolscollection
           - page: Tokenización
             subsubsubfolderitems:
               - page: ¿Cómo funciona?
+                url: /#administrativetokenhowto
               - page: Registro individual
+                url: /#administrativetokenindividualr #registro
               - page: Registro masivo
+                url: /#administrativetokenmasiver
               - page: Cobro individual
+                url: /#administrativetokenindividualc #cobro
               - page: Cobro masivo
+                url: /#administrativetokenmasivec
               - page: Consulta
+                url: /#administrativetokenquery
               - page: Eliminación individual
+                url: /#administrativetokenindividuald #eliminación
               - page: Eliminación masiva
+                url: /#administrativetokenmasived
           - page: Pagos recurrentes
             subsubsubfolderitems:
               - page: ¿Cómo funciona?
+                url: /#administrativerecurrencieshowto
               - page: Planes
+                url: /#administrativerecurrenciesplans
               - page: Clientes
+                url: /#administrativerecurrenciesclients
   - title: Herramientas de ayuda
     subfolderitems:
     - page: Compara tu firma

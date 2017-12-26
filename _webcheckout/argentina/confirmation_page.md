@@ -1,7 +1,7 @@
 ---
 title: Página de confirmación
 position: 2.13
-description: WebCheckout Argentina
+description: WebCheckout <img src="/images/illustrations/argentina_logo.png" width="50">
 ---
 
 La página de confirmación te permite actualizar las bases de datos de tu sistema; por esto, no debe incluir código HTML ya que nunca será visible al comprador. Cuando una transacción finaliza, es decir cuando se aprueba, se rechaza o cuando es cancelada, nuestra plataforma envía las variables por medio del método **HTTP POST**.

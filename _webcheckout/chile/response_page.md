@@ -1,6 +1,7 @@
 ---
 title: Página de respuesta
-position: 2.17
+position: 2.18
+description: WebCheckout <img src="/images/illustrations/chile.png" width="50">
 ---
 
-8 WebCheckout - Pagina de respuesta
+9 WebCheckout - Pagina de respuesta

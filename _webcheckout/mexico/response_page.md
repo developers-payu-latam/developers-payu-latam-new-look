@@ -1,6 +1,7 @@
 ---
 title: Página de respuesta
-position: 2.23
+position: 2.24
+description: WebCheckout <img src="/images/illustrations/mexico.png" width="50">
 ---
 
-14 WebCheckout - Pagina de respuesta
+15 WebCheckout - Pagina de respuesta

@@ -1,10 +1,8 @@
 ---
 title: Integración WebCheckout
 position: 2.10
-description: Redirecciona al cliente a nuestro pasarela para completar la compra de forma segura
+description: Redirecciona a tu cliente a nuestra pasarela para completar la compra de forma segura<br>Disponible para <a href="/#webcheckoutargentinapayment_form">Argentina</a>, <a href="/#webcheckoutbrazilpayment_form">Brasil</a>, <a href="/#webcheckoutchilepayment_form">Chile</a>, <a href="/#webcheckoutcolombiapayment_form">Colombia</a>, <a href="/#webcheckoutmexicopayment_form">México</a>, <a href="/#webcheckoutpanamapayment_form">Panamá</a>, <a href="/#webcheckoutperupayment_form">Perú</a>
 ---
-
-#### Introducción
 
 |Este tipo de integración permite que tu cliente pueda seleccionar los artículos que desea adquirir y al momento de realizar la compra sea redirigido a nuestra pasarela de pagos (WebCheckout).<br><br>Es necesario que el desarrollador de la integración cuente con conocimientos de un lenguaje de programación dinámico tipo PHP, Java, etc.<br><br>Podrás incluir el logo de tu comercio en esta página.<br><br>El intercambio de datos se realiza a través del método *HTTP POST*.|<img src="/images/illustrations/Checkout1-es.png" width="500" height="377">|
 {:.nobordertable}
