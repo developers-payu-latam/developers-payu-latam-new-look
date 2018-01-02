@@ -1,6 +1,7 @@
 ---
 title: Pagos recurrentes
-position: 3.3.3
+position: 3.4.3
+description: API & SDK <img src="/images/illustrations/chile.png" width="50">
 ---
 
-11 Pagos recurrentes Argentina
+11 Pagos recurrentes API Chile

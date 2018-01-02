@@ -1,6 +1,6 @@
 ---
 title: Configuraciones iniciales
-position: 4.8.1
+position: 4.10.1
 ---
 
 Introducción SDK

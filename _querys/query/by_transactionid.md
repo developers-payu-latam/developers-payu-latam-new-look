@@ -1,6 +1,6 @@
 ---
 title: Consulta por transacción
-position: 8.1.4
+position: 4.1.4
 ---
 
 Consulta por transacción

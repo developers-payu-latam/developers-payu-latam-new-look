@@ -1,6 +1,6 @@
 ---
 title: Métodos de pago
-position: 4.7.1
+position: 4.17.1
 ---
 
-25 Metodos de pago Argentina
+25 Metodos de pago SDK Perú

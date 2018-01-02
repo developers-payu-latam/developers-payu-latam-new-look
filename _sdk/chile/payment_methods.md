@@ -1,6 +1,6 @@
 ---
 title: Métodos de pago
-position: 4.3.1
+position: 4.13.1
 ---
 
-9 Metodos de pago Argentina
+9 Metodos de pago SDK Chile

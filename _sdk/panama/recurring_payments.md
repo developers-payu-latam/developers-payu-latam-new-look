@@ -1,6 +1,6 @@
 ---
 title: Pagos recurrentes
-position: 4.6.3
+position: 4.16.3
 ---
 
-23 Pagos recurrentes Argentina
+23 Pagos recurrentes SDK Panamá

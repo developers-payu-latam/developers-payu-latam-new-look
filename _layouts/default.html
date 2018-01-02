@@ -20,6 +20,7 @@
 		<script src="/js/signature-generator/signature-generator.js"></script>
 		<script src="/js/signature-generator/validations.js"></script>
 		<script src="/js/error.js"></script>
+		<script src="/js/backtotop.js"></script>
 		{% seo %}
 
 		{% if jekyll.environment == 'production' %}
@@ -48,6 +49,9 @@
 			{% include sidebar.html %}
 
 		</header>
+
+		<a href="#" id="scroll" style="display: none;"><span></span></a>
+
 		<div class="main">
 			{{ content }}
 		</div>

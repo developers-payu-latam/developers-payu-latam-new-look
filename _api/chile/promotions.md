@@ -1,6 +1,7 @@
 ---
 title: Promociones
-position: 3.3.2
+position: 3.4.2
+description: API & SDK <img src="/images/illustrations/chile.png" width="50">
 ---
 
-10 Promociones Argentina
+10 Promociones API Chile

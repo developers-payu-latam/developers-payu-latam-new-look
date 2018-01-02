@@ -32,8 +32,11 @@ collections:
   api:
     title: API
     position: 3
-  sdk:
-    title: SDK
+#  sdk:
+#    title: SDK
+#    position: 4
+  querys:
+    title: Consultas
     position: 4
   administrative:
     title: Módulo Administrativo
@@ -44,9 +47,6 @@ collections:
   help:
     title: Ayuda y Soporte
     position: 7
-  querys:
-    title: Consultas
-    position: 8
 
 gems:
   - jekyll-sitemap

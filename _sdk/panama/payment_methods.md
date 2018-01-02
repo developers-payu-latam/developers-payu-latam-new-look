@@ -1,6 +1,6 @@
 ---
 title: Métodos de pago
-position: 4.6.1
+position: 4.16.1
 ---
 
-21 Metodos de pago Argentina
+21 Metodos de pago SDK Panamá

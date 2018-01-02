@@ -1,6 +1,7 @@
 ---
 title: Promociones
-position: 3.4.2
+position: 3.5.2
+description: API & SDK <img src="/images/illustrations/colombia.png" width="50">
 ---
 
-14 Promociones Argentina
+14 Promociones API Colombia

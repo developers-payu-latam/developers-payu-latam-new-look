@@ -1,9 +1,10 @@
 ---
 title: Métodos de pago
-position: 3.1.1
+position: 3.2.1
+description: API & SDK <img src="/images/illustrations/argentina_logo.png" width="50">
 ---
 
-1 Metodos de pago Argentina
+1 Metodos de pago API Argentina
 
 
 

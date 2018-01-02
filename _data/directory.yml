@@ -99,172 +99,191 @@ toc2:
     subfolderitems:
       - page: Introducción
         url: /#apiothersintro
-      - page: Integración API
+#      - page: Integración API
+#        subsubfolderitems:
+      - page: Configuraciones iniciales
         subsubfolderitems:
-          - page: Configuraciones iniciales
-            url : /#apiothersfirstconfigurations
-          - page: Argentina
-            subsubsubfolderitems:
-              - page: Metodos de Pagos
-                url: /#apiargentinapayment_methods
-              - page: Promociones
-                url: /#apiargentinapromotions
-              - page: Pagos recurrentes
-                url: /#apiargentinarecurring_payments
-              - page: Tokenización
-                url: /#apiargentinatokenization
-          - page: Brasil
-            subsubsubfolderitems:
-              - page: Metodos de Pagos
-                url: /#apibrazilpayment_methods
-              - page: Promociones
-                url: /#apibrazilpromotions
-              - page: Pagos recurrentes
-                url: /#apibrazilrecurring_payments
-              - page: Tokenización
-                url: /#apibraziltokenization
-          - page: Chile
-            subsubsubfolderitems:
-              - page: Metodos de Pagos
-                url: /#apichilepayment_methods
-              - page: Promociones
-                url: /#apichilepromotions
-              - page: Pagos recurrentes
-                url: /#apichilerecurring_payments
-              - page: Tokenización
-                url: /#apichiletokenization
-          - page: Colombia
-            subsubsubfolderitems:
-              - page: Metodos de Pagos
-                url: /#apicolombiapayment_methods
-              - page: Promociones
-                url: /#apicolombiapromotions
-              - page: Pagos recurrentes
-                url: /#apicolombiarecurring_payments
-              - page: Tokenización
-                url: /#apicolombiatokenization
-          - page: México
-            subsubsubfolderitems:
-              - page: Metodos de Pagos
-                url: /#apimexicopayment_methods
-              - page: Promociones
-                url: /#apimexicopromotions
-              - page: Pagos recurrentes
-                url: /#apimexicorecurring_payments
-              - page: Tokenización
-                url: /#apimexicotokenization
-          - page: Panamá
-            subsubsubfolderitems:
-              - page: Metodos de Pagos
-                url: /#apipanamapayment_methods
-              - page: Promociones
-                url: /#apipanamapromotions
-              - page: Pagos recurrentes
-                url: /#apipanamarecurring_payments
-              - page: Tokenización
-                url: /#apipanamatokenization
-          - page: Perú
-            subsubsubfolderitems:
-              - page: Metodos de Pagos
-                url: /#apiperupayment_methods
-              - page: Promociones
-                url: /#apiperupromotions
-              - page: Pagos recurrentes
-                url: /#apiperurecurring_payments
-              - page: Tokenización
-                url: /#apiperutokenization
-      - page: Integración SDK
+          - page: API
+            url : /#apiothersapi_first_config
+          - page: SDK Java
+            url : /#apiotherssdkjava_first_config
+          - page: SDK PHP
+            url : /#apiotherssdkphp_first_config
+          - page: Conectividad con PayU
+            url : /#apiothersdo_ping
+          - page: Medios de pago activos
+            url : /#apiotherspayment_methods
+      - page: Argentina
         subsubfolderitems:
-          - page: Configuraciones iniciales
-            url : /#sdkothersfirstconfigurations
-          - page: Argentina
-            subsubsubfolderitems:
-              - page: Metodos de Pagos
-                url: /#sdkargentinapayment_methods
-              - page: Promociones
-                url: /#sdkargentinapromotions
-              - page: Pagos recurrentes
-                url: /#sdkargentinarecurring_payments
-              - page: Tokenización
-                url: /#sdkargentinatokenization
-          - page: Brasil
-            subsubsubfolderitems:
-              - page: Metodos de Pagos
-                url: /#sdkbrazilpayment_methods
-              - page: Promociones
-                url: /#sdkbrazilpromotions
-              - page: Pagos recurrentes
-                url: /#sdkbrazilrecurring_payments
-              - page: Tokenización
-                url: /#sdkbraziltokenization
-          - page: Chile
-            subsubsubfolderitems:
-              - page: Metodos de Pagos
-                url: /#sdkchilepayment_methods
-              - page: Promociones
-                url: /#sdkchilepromotions
-              - page: Pagos recurrentes
-                url: /#sdkchilerecurring_payments
-              - page: Tokenización
-                url: /#sdkchiletokenization
-          - page: Colombia
-            subsubsubfolderitems:
-              - page: Metodos de Pagos
-                url: /#sdkcolombiapayment_methods
-              - page: Promociones
-                url: /#sdkcolombiapromotions
-              - page: Pagos recurrentes
-                url: /#sdkcolombiarecurring_payments
-              - page: Tokenización
-                url: /#sdkcolombiatokenization
-          - page: México
-            subsubsubfolderitems:
-              - page: Metodos de Pagos
-                url: /#sdkmexicopayment_methods
-              - page: Promociones
-                url: /#sdkmexicopromotions
-              - page: Pagos recurrentes
-                url: /#sdkmexicorecurring_payments
-              - page: Tokenización
-                url: /#sdkmexicotokenization
-          - page: Panamá
-            subsubsubfolderitems:
-              - page: Metodos de Pagos
-                url: /#sdkpanamapayment_methods
-              - page: Promociones
-                url: /#sdkpanamapromotions
-              - page: Pagos recurrentes
-                url: /#sdkpanamarecurring_payments
-              - page: Tokenización
-                url: /#sdkpanamatokenization
-          - page: Perú
-            subsubsubfolderitems:
-              - page: Metodos de Pagos
-                url: /#sdkperupayment_methods
-              - page: Promociones
-                url: /#sdkperupromotions
-              - page: Pagos recurrentes
-                url: /#sdkperurecurring_payments
-              - page: Tokenización
-                url: /#sdkperutokenization
+#        subsubsubfolderitems:
+          - page: Métodos de pago
+            url: /#apiargentinapayment_methods
+          - page: Promociones
+            url: /#apiargentinapromotions
+          - page: Pagos recurrentes
+            url: /#apiargentinarecurring_payments
+          - page: Tokenización
+            url: /#apiargentinatokenization
+      - page: Brasil
+        subsubfolderitems:
+#        subsubsubfolderitems:
+          - page: Métodos de pago
+            url: /#apibrazilpayment_methods
+          - page: Promociones
+            url: /#apibrazilpromotions
+          - page: Pagos recurrentes
+            url: /#apibrazilrecurring_payments
+          - page: Tokenización
+            url: /#apibraziltokenization
+      - page: Chile
+        subsubfolderitems:
+#        subsubsubfolderitems:
+          - page: Métodos de pago
+            url: /#apichilepayment_methods
+          - page: Promociones
+            url: /#apichilepromotions
+          - page: Pagos recurrentes
+            url: /#apichilerecurring_payments
+          - page: Tokenización
+            url: /#apichiletokenization
+      - page: Colombia
+        subsubfolderitems:
+#        subsubsubfolderitems:
+          - page: Métodos de pago
+            url: /#apicolombiapayment_methods
+          - page: Promociones
+            url: /#apicolombiapromotions
+          - page: Pagos recurrentes
+            url: /#apicolombiarecurring_payments
+          - page: Tokenización
+            url: /#apicolombiatokenization
+      - page: México
+        subsubfolderitems:
+#        subsubsubfolderitems:
+          - page: Métodos de pago
+            url: /#apimexicopayment_methods
+          - page: Promociones
+            url: /#apimexicopromotions
+          - page: Pagos recurrentes
+            url: /#apimexicorecurring_payments
+          - page: Tokenización
+            url: /#apimexicotokenization
+      - page: Panamá
+        subsubfolderitems:
+#        subsubsubfolderitems:
+          - page: Métodos de pago
+            url: /#apipanamapayment_methods
+          - page: Promociones
+            url: /#apipanamapromotions
+          - page: Pagos recurrentes
+            url: /#apipanamarecurring_payments
+          - page: Tokenización
+            url: /#apipanamatokenization
+      - page: Perú
+        subsubfolderitems:
+#        subsubsubfolderitems:
+          - page: Métodos de pago
+            url: /#apiperupayment_methods
+          - page: Promociones
+            url: /#apiperupromotions
+          - page: Pagos recurrentes
+            url: /#apiperurecurring_payments
+          - page: Tokenización
+            url: /#apiperutokenization
+#      - page: Integración SDK
+#        subsubfolderitems:
+#          - page: Configuraciones iniciales
+#            url : /#sdkothersfirstconfigurations
+#          - page: Argentina
+#            subsubsubfolderitems:
+#              - page: Métodos de pago
+#                url: /#sdkargentinapayment_methods
+#              - page: Promociones
+#                url: /#sdkargentinapromotions
+#              - page: Pagos recurrentes
+#                url: /#sdkargentinarecurring_payments
+#              - page: Tokenización
+#                url: /#sdkargentinatokenization
+#          - page: Brasil
+#            subsubsubfolderitems:
+#              - page: Métodos de pago
+#                url: /#sdkbrazilpayment_methods
+#              - page: Promociones
+#                url: /#sdkbrazilpromotions
+#              - page: Pagos recurrentes
+#                url: /#sdkbrazilrecurring_payments
+#              - page: Tokenización
+#                url: /#sdkbraziltokenization
+#          - page: Chile
+#            subsubsubfolderitems:
+#              - page: Métodos de pago
+#                url: /#sdkchilepayment_methods
+#              - page: Promociones
+#                url: /#sdkchilepromotions
+#              - page: Pagos recurrentes
+#                url: /#sdkchilerecurring_payments
+#              - page: Tokenización
+#                url: /#sdkchiletokenization
+#          - page: Colombia
+#            subsubsubfolderitems:
+#              - page: Métodos de pago
+#                url: /#sdkcolombiapayment_methods
+#              - page: Promociones
+#                url: /#sdkcolombiapromotions
+#              - page: Pagos recurrentes
+#                url: /#sdkcolombiarecurring_payments
+#              - page: Tokenización
+#                url: /#sdkcolombiatokenization
+#          - page: México
+#            subsubsubfolderitems:
+#              - page: Métodos de pago
+#                url: /#sdkmexicopayment_methods
+#              - page: Promociones
+#                url: /#sdkmexicopromotions
+#              - page: Pagos recurrentes
+#                url: /#sdkmexicorecurring_payments
+#              - page: Tokenización
+#                url: /#sdkmexicotokenization
+#          - page: Panamá
+#            subsubsubfolderitems:
+#              - page: Métodos de pago
+#                url: /#sdkpanamapayment_methods
+#              - page: Promociones
+#                url: /#sdkpanamapromotions
+#              - page: Pagos recurrentes
+#                url: /#sdkpanamarecurring_payments
+#              - page: Tokenización
+#                url: /#sdkpanamatokenization
+#          - page: Perú
+#            subsubsubfolderitems:
+#              - page: Métodos de pago
+#                url: /#sdkperupayment_methods
+#              - page: Promociones
+#                url: /#sdkperupromotions
+#              - page: Pagos recurrentes
+#                url: /#sdkperurecurring_payments
+#              - page: Tokenización
+#                url: /#sdkperutokenization
+#          - page: Errores comunes
+#            url: /#sdkcommon_errorserrors
       - page: API de Consultas
         subsubfolderitems:
           - page: Introducción
-            url: /#querysquery_introduction
+            url: /#querysqueryintro
           - page: Consulta por referencia
-            url: /#querysquery_by_referencecode
+            url: /#querysqueryby_referencecode
           - page: Consulta por orden
-            url: /#querysquery_by_orderid
+            url: /#querysqueryby_orderid
           - page: Consulta por transacción
-            url: /#querysquery_by_transactionid
+            url: /#querysqueryby_transactionid
       - page: Errores comunes
-        url: /#apicommon_errorserrors
+        url: /#queryscommon_errorserrors
   - title: Módulo Administrativo
     subfolderitems:
+      - page: Introducción
+        url: /#administrativeothersintro
       - page: Administración de Cuenta
         subsubfolderitems:
-          - page: Introducción
-            url: /#administrativeothersintro
           - page: Completar registro
             url: /#administrativeothersregister
           - page: Consultar Saldos
@@ -278,15 +297,15 @@ toc2:
           - page: Transferencias
             subsubsubfolderitems:
               - page: Datos Bancarios
-                url: /#administrativetransferbank
+                url: /#administrativetransfersbank
               - page: Registro de terceros
-                url: /#administrativetransferthirdparty
+                url: /#administrativetransfersthirdparty
               - page: Transferir
-                url: /#administrativetransfertranser
+                url: /#administrativetransferstranser
               - page: Programar transferencias
-                url: /#administrativetransferschedule
+                url: /#administrativetransfersschedule
               - page: Consuta de estado
-                url: /#administrativetransferstatus
+                url: /#administrativetransfersstatus
           - page: Reportes
             subsubsubfolderitems:
               - page: Órdenes
@@ -310,7 +329,7 @@ toc2:
               - page: Consultar estado
                 url: /#administrativerefundsstatus
           - page: Disputas
-            url: /#administrativeothersdispute
+            url: /#administrativeothersdisputes
           - page: Actualización de datos
             subsubsubfolderitems:
               - page: Cambiar clave
@@ -318,7 +337,7 @@ toc2:
               - page: Información de contacto
                 url: /#administrativeupdatecontact
               - page: Datos bancarios
-                url: /#administrativeupdatebank
+                url: /#administrativeupdatebankinfo
               - page: Información de ventas
                 url: /#administrativeupdatesales
               - page: Formato de tiempo y moneda
@@ -331,7 +350,7 @@ toc2:
                 url: /#administrativeconfigaccounts
       - page: Herramientas del vendedor
         subsubfolderitems:
-          - page: Botón de pagos
+          - page: Botón de pago
             url: /#administrativetoolsbutton
           - page: Solicitudes de pago
             url: /#administrativetoolspaymentrequest
@@ -341,25 +360,25 @@ toc2:
             url: /#administrativetoolscoupons
           - page: Tarjetas de cobranza
             url: /#administrativetoolscollection
-          - page: Tokenización
+          - page: Tokens
             subsubsubfolderitems:
               - page: ¿Cómo funciona?
                 url: /#administrativetokenhowto
               - page: Registro individual
-                url: /#administrativetokenindividualr #registro
+                url: /#administrativetokenindividualreg #registro
               - page: Registro masivo
-                url: /#administrativetokenmasiver
+                url: /#administrativetokenmasivereg
               - page: Cobro individual
-                url: /#administrativetokenindividualc #cobro
+                url: /#administrativetokenindividualchar #cobro
               - page: Cobro masivo
-                url: /#administrativetokenmasivec
+                url: /#administrativetokenmasivechar
               - page: Consulta
                 url: /#administrativetokenquery
               - page: Eliminación individual
-                url: /#administrativetokenindividuald #eliminación
+                url: /#administrativetokenindividualdel #eliminación
               - page: Eliminación masiva
-                url: /#administrativetokenmasived
-          - page: Pagos recurrentes
+                url: /#administrativetokenmasivedel
+          - page: Recurrencias
             subsubsubfolderitems:
               - page: ¿Cómo funciona?
                 url: /#administrativerecurrencieshowto

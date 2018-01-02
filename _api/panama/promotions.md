@@ -1,6 +1,7 @@
 ---
 title: Promociones
-position: 3.6.2
+position: 3.7.2
+description: API & SDK <img src="/images/illustrations/panama.png" width="50">
 ---
 
-22 Promociones Argentina
+22 Promociones API Panamá

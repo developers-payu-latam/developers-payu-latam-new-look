@@ -1,6 +1,6 @@
 ---
 title: Pagos recurrentes
-position: 4.7.3
+position: 4.17.3
 ---
 
-27 Pagos recurrentes Argentina
+27 Pagos recurrentes SDK Perú

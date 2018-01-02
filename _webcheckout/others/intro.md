@@ -1,7 +1,7 @@
 ---
 title: Integración WebCheckout
 position: 2.10
-description: Redirecciona a tu cliente a nuestra pasarela para completar la compra de forma segura<br>Disponible para <a href="/#webcheckoutargentinapayment_form">Argentina</a>, <a href="/#webcheckoutbrazilpayment_form">Brasil</a>, <a href="/#webcheckoutchilepayment_form">Chile</a>, <a href="/#webcheckoutcolombiapayment_form">Colombia</a>, <a href="/#webcheckoutmexicopayment_form">México</a>, <a href="/#webcheckoutpanamapayment_form">Panamá</a>, <a href="/#webcheckoutperupayment_form">Perú</a>
+description: Redirecciona a tu cliente a nuestra pasarela para completar la compra de forma segura<br>Disponible en <a href="/#webcheckoutargentinapayment_form"><img src="/images/illustrations/argentina_logo.png" width="50"></a>&nbsp;&nbsp;<a href="/#webcheckoutbrazilpayment_form"><img src="/images/illustrations/brasil.png" width="50"></a>&nbsp;&nbsp;<a href="/#webcheckoutchilepayment_form"><img src="/images/illustrations/chile.png" width="50"></a>&nbsp;&nbsp;<a href="/#webcheckoutcolombiapayment_form"><img src="/images/illustrations/colombia.png" width="50"></a>&nbsp;&nbsp;<a href="/#webcheckoutmexicopayment_form"><img src="/images/illustrations/mexico.png" width="50"></a>&nbsp;&nbsp;<a href="/#webcheckoutpanamapayment_form"><img src="/images/illustrations/panama.png" width="50"></a>&nbsp;&nbsp;<a href="/#webcheckoutperupayment_form"><img src="/images/illustrations/peru.png" width="50"></a>
 ---
 
 |Este tipo de integración permite que tu cliente pueda seleccionar los artículos que desea adquirir y al momento de realizar la compra sea redirigido a nuestra pasarela de pagos (WebCheckout).<br><br>Es necesario que el desarrollador de la integración cuente con conocimientos de un lenguaje de programación dinámico tipo PHP, Java, etc.<br><br>Podrás incluir el logo de tu comercio en esta página.<br><br>El intercambio de datos se realiza a través del método *HTTP POST*.|<img src="/images/illustrations/Checkout1-es.png" width="500" height="377">|
@@ -21,8 +21,6 @@ description: Redirecciona a tu cliente a nuestra pasarela para completar la comp
 |**5.** El sistema te notificará el estado final de la transacción a través de una página de confirmación por el método HTTP POST. Adicionalmente el sistema te enviará un correo electrónico de confirmación y uno al pagador.|<img src="/images/illustrations/paso5-es.jpg" width="500" height="338">|
 {:.nobordertable}
 
-Disponible para: [Argentina]({{ "#webcheckoutargentinapayment_form" }}), [Brazil]({{ "#webcheckoutbrazilpayment_form" }}), [Chile]({{ "#webcheckoutchilepayment_form" }}), [Colombia]({{ "#webcheckoutcolombiapayment_form" }}), [México]({{ "#webcheckoutmexicopayment_form" }}), [Panamá]({{ "#webcheckoutpanamapayment_form" }}) y [Perú]({{ "#webcheckoutperupayment_form" }})
-{: .info }
 La codificación de tu página debe ser UTF-8.
 {: .info }
 Temporalmente **NO** utilices certificados de seguridad de curva elíptica o aquellos que cuenten con la suite de cifrado TLS_ECDHE_ECDSA_WITH_RC4_128_SHA en tu página de confirmación.

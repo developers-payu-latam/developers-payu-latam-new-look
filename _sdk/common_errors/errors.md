@@ -1,6 +1,6 @@
 ---
-title: Errores Comunes
-position: 3.8.1
+title: Errores Comunes SDK
+position: 4.18.1
 ---
 29
 

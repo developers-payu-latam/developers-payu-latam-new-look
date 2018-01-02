@@ -1,6 +1,7 @@
 ---
 title: Promociones
-position: 3.7.2
+position: 3.8.2
+description: API & SDK <img src="/images/illustrations/peru.png" width="50">
 ---
 
-26 Promociones Argentina
+26 Promociones API Perú

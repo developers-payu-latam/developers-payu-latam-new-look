@@ -1,6 +1,7 @@
 ---
 title: Métodos de pago
-position: 3.2.1
+position: 3.3.1
+description: API & SDK <img src="/images/illustrations/brasil.png" width="50">
 ---
 
-5 Metodos de pago Argentina
+5 Metodos de pago API Brasil
