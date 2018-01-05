@@ -12,6 +12,13 @@ Para realizar el proceso de conexión con el API, deberás incluir estas liberer
 + Commons-codec-1.6.jar
 - Commons-lang3-3.5.jar
 
+<a href="/sdk/java/payu-java-sdk-1.2.5.zip" class="payu-btn payu-btn-blue">Puedes obtener la librería aquí: v1.2.5</a>
+
+Para facilitar su uso, se proporcionan una serie de constantes en la interfaz PayU.PARAMETERS, que contienen los nombres de los parámetros utilizados en los métodos del SDK y los cuales serán referenciados en cada operación disponible del manual.
+{: .info }
+A partir de la versión 1.2.X, es necesario agregar el certificado del API de pagos de PayU (<a href="https://api.payulatam.com/payments-api/">https://api.payulatam.com/payments-api/</a>) en la carpeta de llaves de Java. Esta carpeta se encuentra en: [carpetaJava]/jdk/jre/lib/security/cacerts
+{: .info }
+
 |Parámetro|Tipo|¿Requerido?|Descripción|
 |---|---|---|---|
 |language|Language|Sí|El idioma usado para los mensajes de error del sistema y en los correos electrónicos que se envían al comprador y vendedor. Se soportan actualmente *en* (Inglés), *es* (Español) y *pt* (Portugués).|
@@ -37,10 +44,3 @@ Para la ejecución de cada una de las operaciones provistas por el SDK de PayU, 
 ~~~ java
 Map<String, String>  parameters = new HashMap <String, String> ();
 ~~~
-
-<a href="/sdk/java/payu-java-sdk-1.2.5.zip" class="payu-btn payu-btn-blue">Puedes obtener la librería aquí: v1.2.5</a>
-
-Para facilitar su uso, se proporcionan una serie de constantes en la interfaz PayU.PARAMETERS, que contienen los nombres de los parámetros utilizados en los métodos del SDK y los cuales serán referenciados en cada operación disponible del manual.
-{: .info }
-A partir de la versión 1.2.X, es necesario agregar el certificado del API de pagos de PayU (<a href="https://api.payulatam.com/payments-api/">https://api.payulatam.com/payments-api/</a>) en la carpeta de llaves de Java. Esta carpeta se encuentra en: [carpetaJava]/jdk/jre/lib/security/cacerts
-{: .info }

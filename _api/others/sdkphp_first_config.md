@@ -11,6 +11,8 @@ Para realizar el proceso de conexión con el API, el SDK se puede ejecutar en m�
 - mbstring
 + json
 
+<a href="/sdk/java/payu-php-sdk-4.5.7.zip" class="payu-btn payu-btn-blue">Puedes obtener la clase aquí: v4.5.7</a>
+
 Deberás además incluir la clase PayU:
 
 ~~~ php
@@ -52,5 +54,3 @@ Environment::setSubscriptionsCustomUrl("https://sandbox.api.payulatam.com/paymen
 ...
 ?>
 ~~~
-
-<a href="/sdk/java/payu-php-sdk-4.5.7.zip" class="payu-btn payu-btn-blue">Puedes obtener la clase aquí: v4.5.7</a>

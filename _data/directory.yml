@@ -116,8 +116,10 @@ toc2:
       - page: Argentina
         subsubfolderitems:
 #        subsubsubfolderitems:
-          - page: Métodos de pago
+          - page: Medios de pago
             url: /#apiargentinapayment_methods
+          - page: Tipos de pago
+            url: /#apiargentinapayment_types
           - page: Promociones
             url: /#apiargentinapromotions
           - page: Pagos recurrentes
@@ -269,15 +271,23 @@ toc2:
       - page: API de Consultas
         subsubfolderitems:
           - page: Introducción
-            url: /#querysqueryintro
+            url: /#apiquerysintro
           - page: Consulta por referencia
-            url: /#querysqueryby_referencecode
+            url: /#apiquerysquery_by_referencecode
           - page: Consulta por orden
-            url: /#querysqueryby_orderid
+            url: /#apiquerysquery_by_orderid
           - page: Consulta por transacción
-            url: /#querysqueryby_transactionid
+            url: /#apiquerysquery_by_transactionid
+      - page: Reembolsos - Anulaciónes
+        subsubfolderitems:
+          - page: Introducción
+            url: /#apirefund_and_voidintro
+          - page: Solicitud de reembolso
+            url: /#apirefund_and_voidrefund_request
+          - page: Solicitud de anulación
+            url: /#apirefund_and_voidvoid_request
       - page: Errores comunes
-        url: /#queryscommon_errorserrors
+        url: /#apicommon_errorserrors
   - title: Módulo Administrativo
     subfolderitems:
       - page: Introducción

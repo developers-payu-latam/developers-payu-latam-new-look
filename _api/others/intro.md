@@ -22,23 +22,33 @@ Te ofrecemos dos opciones de integración haciendo uso de nuestra API.
 
 ||<img src="/images/illustrations/argentina_logo.png" width="50">|<img src="/images/illustrations/brasil.png" width="50">|<img src="/images/illustrations/chile.png" width="50">|<img src="/images/illustrations/colombia.png" width="50">|<img src="/images/illustrations/mexico.png" width="50">|<img src="/images/illustrations/panama.png" width="50">|<img src="/images/illustrations/peru.png" width="50">|
 |---|---|---|---|---|---|---|---|
-|Pagos|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|
-|Promociones|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/x-mark.png" width="15">|<img src="/images/illustrations/x-mark.png" width="15">|<img src="/images/illustrations/x-mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/x-mark.png" width="15">|<img src="/images/illustrations/x-mark.png" width="15">|
-|Tokenización|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|
-|Reembolsos|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/x-mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|
-|Pagos recurrentes|<img src="/images/illustrations/x-mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/x-mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/x-mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|
-|Consulta|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|
+|Pagos|<center>✓</center>|<center>✓</center>|<center>✓</center>|<center>✓</center>|<center>✓</center>|<center>✓</center>|<center>✓</center>|
+|Promociones|<center>✓</center>|<center>✗</center>|<center>✗</center>|<center>✗</center>|<center>✓</center>|<center>✗</center>|<center>✗</center>|
+|Tokenización|<center>✓</center>|<center>✓</center>|<center>✓</center>|<center>✓</center>|<center>✓</center>|<center>✓</center>|<center>✓</center>|
+|Reembolsos|<center>✓</center>|<center>✓</center>|<center>✗</center>|<center>✓</center>|<center>✓</center>|<center>✓</center>|<center>✓</center>|
+|Pagos recurrentes|<center>✗</center>|<center>✓</center>|<center>✗</center>|<center>✓</center>|<center>✓</center>|<center>✗</center>|<center>✓</center>|
+|Procesamiento sin CVV|<center>✗</center>|<center>✓</center>|<center>✗</center>|<center>✓</center>|<center>✓</center>|<center>✗</center>|<center>✓</center>|
+|Consulta|<center>✓</center>|<center>✓</center>|<center>✓</center>|<center>✓</center>|<center>✓</center>|<center>✓</center>|<center>✓</center>|
+{:.tabletest}
+&nbsp;
+##### Autorización y Captura de pagos
 
+||<img src="/images/illustrations/argentina_logo.png" width="50">|<img src="/images/illustrations/brasil.png" width="50">|<img src="/images/illustrations/chile.png" width="50">|<img src="/images/illustrations/colombia.png" width="50">|<img src="/images/illustrations/mexico.png" width="50">|<img src="/images/illustrations/panama.png" width="50">|<img src="/images/illustrations/peru.png" width="50">|
+|---|---|---|---|---|---|---|---|
+|En un paso|<center>✓</center>|<center>✓</center>|<center>✓</center>|<center>✓</center>|<center>✓</center>|<center>✓</center>|<center>✓</center>|
+|En dos pasos|<center>✓*</center>|<center>✓</center>|<center>✗</center>|<center>✗</center>|<center>✗</center>|<center>✗</center>|<center>✓</center>|
+
+&nbsp;
 ##### Servicios y funcionalidades SDK
 
 ||<img src="/images/illustrations/argentina_logo.png" width="50">|<img src="/images/illustrations/brasil.png" width="50">|<img src="/images/illustrations/chile.png" width="50">|<img src="/images/illustrations/colombia.png" width="50">|<img src="/images/illustrations/mexico.png" width="50">|<img src="/images/illustrations/panama.png" width="50">|<img src="/images/illustrations/peru.png" width="50">|
 |---|---|---|---|---|---|---|---|
-|Pagos|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|
-|Promociones|<img src="/images/illustrations/x-mark.png" width="15">|<img src="/images/illustrations/x-mark.png" width="15">|<img src="/images/illustrations/x-mark.png" width="15">|<img src="/images/illustrations/x-mark.png" width="15">|<img src="/images/illustrations/x-mark.png" width="15">|<img src="/images/illustrations/x-mark.png" width="15">|<img src="/images/illustrations/x-mark.png" width="15">|
-|Tokenización|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|
-|Reembolsos|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/x-mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|
-|Pagos recurrentes|<img src="/images/illustrations/x-mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/x-mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/x-mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|
-|Consulta|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|<img src="/images/illustrations/check_mark.png" width="15">|
+|Pagos|<center>✓</center>|<center>✓</center>|<center>✓</center>|<center>✓</center>|<center>✓</center>|<center>✓</center>|<center>✓</center>|
+|Promociones|<center>✗</center>|<center>✗</center>|<center>✗</center>|<center>✗</center>|<center>✗</center>|<center>✗</center>|<center>✗</center>|
+|Tokenización|<center>✓</center>|<center>✓</center>|<center>✓</center>|<center>✓</center>|<center>✓</center>|<center>✓</center>|<center>✓</center>|
+|Reembolsos|<center>✓</center>|<center>✓</center>|<center>✗</center>|<center>✓</center>|<center>✓</center>|<center>✓</center>|<center>✓</center>|
+|Pagos recurrentes|<center>✗</center>|<center>✓</center>|<center>✗</center>|<center>✓</center>|<center>✓</center>|<center>✗</center>|<center>✓</center>|
+|Consulta|<center>✓</center>|<center>✓</center>|<center>✓</center>|<center>✓</center>|<center>✓</center>|<center>✓</center>|<center>✓</center>|
 
 La codificación para los mensajes debe ser UTF-8.
 {: .info }
