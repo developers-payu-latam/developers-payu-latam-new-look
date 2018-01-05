@@ -129,6 +129,19 @@ body {
 	}
 }
 
+.tabletest {
+	table, th {
+		border-style: hidden;
+		border-collapse: collapse;
+		margin: 0 0 0 0;
+		vertical-align: center;
+		text-align: center;
+	}
+	td {
+		text-align: left;
+	}
+}
+
 table {
 	border: 1px solid #E1E1E1;
 	margin: 0 0 20px 0;
