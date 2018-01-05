@@ -9,8 +9,8 @@ En esta sección verás cómo enviar los datos de una transacción a PayU. Debes
 #### Medios de pago disponibles
 
 |<img src="/images/illustrations/tarjetas-de-credito.png"><br>Tarjetas de Crédito|<img src="/images/illustrations/master.png"><img src="/images/illustrations/visa.png"><img src="/images/illustrations/american.png"><img src="/images/illustrations/naranja.png"><br><img src="/images/illustrations/cabal.png"><img src="/images/illustrations/shopping.png"><img src="/images/illustrations/argencard.png"><img src="/images/illustrations/cencosud.png">|
-|<img src="/images/illustrations/tarjetas-de-debito.png"><br>Tarjetas de Débito|<img src="/images/illustrations/visa.png">|
-|<img src="/images/illustrations/efectivo.png"><br>Efectivo|<img src="/images/illustrations/pago-facil.png"><img src="/images/illustrations/rapi-pago.png"><img src="/images/illustrations/cobro-express.png"><img src="/images/illustrations/ripsa.png"><br><img src="/images/illustrations/banco-provincia.png">|
+|<img src="/images/illustrations/tarjetas-de-debito.png"><br>Tarjetas de Débito|<img src="/images/illustrations/visa.png" align="left">|
+|<img src="/images/illustrations/efectivo.png"><br>Efectivo|<img src="/images/illustrations/pago-facil.png"><img src="/images/illustrations/rapi-pago.png"><img src="/images/illustrations/cobro-express.png"><img src="/images/illustrations/ripsa.png"><br><img src="/images/illustrations/banco-provincia.png" align="left">|
 {:.nobordertablecenterf}
 
 #### Formulario

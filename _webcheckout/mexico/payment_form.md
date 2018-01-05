@@ -8,9 +8,9 @@ En esta sección verás cómo enviar los datos de una transacción a PayU. Debes
 
 #### Medios de pago disponibles
 
-|<img src="/images/illustrations/tarjetas-de-credito.png"><br>Tarjetas de crédito|<img src="/images/illustrations/master.png"><img src="/images/illustrations/visa.png"><img src="/images/illustrations/american.png">|
-|<img src="/images/illustrations/tarjetas-de-debito.png"><br>Tarjetas de débito|<img src="/images/illustrations/visa.png"><img src="/images/illustrations/master.png">|
+|<img src="/images/illustrations/tarjetas-de-credito.png"><br>Tarjetas de crédito|<img src="/images/illustrations/master.png" align="left"><img src="/images/illustrations/visa.png" align="left"><img src="/images/illustrations/american.png" align="left">|
+|<img src="/images/illustrations/tarjetas-de-debito.png"><br>Tarjetas de débito|<img src="/images/illustrations/master.png" align="left"><img src="/images/illustrations/visa.png" align="left">|
 |<img src="/images/illustrations/efectivo.png"><br>Efectivo|<img src="/images/illustrations/farmaciasahorro.png">&nbsp;&nbsp;<img src="/images/illustrations/farmaciabenavides.png">&nbsp;&nbsp;<img src="/images/illustrations/oxxo.png"><img src="/images/illustrations/7eleven.png">|
-|<img src="/images/illustrations/efectivo.png"><br>Pago en bancos|<img src="/images/illustrations/bancomer.png">&nbsp;&nbsp;<img src="/images/illustrations/scotiabank.png">&nbsp;&nbsp;<img src="/images/illustrations/santander.png">|
-|<img src="/images/illustrations/transferencias-bancarias.png"><br>Transferencia bancaria|<img src="/images/illustrations/spei.png">|
+|<img src="/images/illustrations/efectivo.png"><br>Pago en bancos|<img src="/images/illustrations/bancomer.png" align="left">&nbsp;&nbsp;<img src="/images/illustrations/scotiabank.png" align="left">&nbsp;&nbsp;<img src="/images/illustrations/santander.png" align="left">|
+|<img src="/images/illustrations/transferencias-bancarias.png"><br>Transferencia bancaria|<img src="/images/illustrations/spei.png" align="left">|
 {:.nobordertablecenterf}
