@@ -1,25 +1,11 @@
 ---
 title: Medios de pago activos
-position: 3.1.6
+position: 3.10.6
 description: Valida los medios de pagos que tienes activos
 ---
 
-Antes de iniciar la generación de transacciones a traves de nuestro API, deberás verificar los diferentes medios de pago que tienes activos para tu cuenta.
+Puedes validar los medios de pago activos para tu cuenta mediante el método `GET_PAYMENT_METHODS` para API o `getPaymentMethods` para SDK.
 
-Lo puedes verificar mediante el método *getPaymentMethods*.
-
-~~~ xml
-<request>
-   <language>en</language>
-   <command>GET_PAYMENT_METHODS</command>
-   <merchant>
-      <apiLogin>pRRXKOl8ikMmt9u</apiLogin>
-      <apiKey>4Vj8eK4rloUd272L48hsrarnUA</apiKey>
-   </merchant>
-   <isTest>false</isTest>
-</request>
-~~~
-{: title="XML" }
 ~~~ json
 {
    "test": false,
@@ -32,6 +18,18 @@ Lo puedes verificar mediante el método *getPaymentMethods*.
 }
 ~~~
 {: title="JSON" }
+~~~ xml
+<request>
+   <language>en</language>
+   <command>GET_PAYMENT_METHODS</command>
+   <merchant>
+      <apiLogin>pRRXKOl8ikMmt9u</apiLogin>
+      <apiKey>4Vj8eK4rloUd272L48hsrarnUA</apiKey>
+   </merchant>
+   <isTest>false</isTest>
+</request>
+~~~
+{: title="XML" }
 ~~~ java
 List<PaymentMethodComplete> response = PayUPayments.getPaymentMethods();
 LoggerUtil.info("{0}", response);

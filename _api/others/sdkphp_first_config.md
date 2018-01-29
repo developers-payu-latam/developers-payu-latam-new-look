@@ -1,23 +1,36 @@
 ---
-title: SDK PHP
-position: 3.1.4
-description: Configuraciones iniciales
+title: Configuraciones iniciales ~ SDK PHP
+position: 3.10.4
+description:
 ---
 
-Para realizar el proceso de conexión con el API, el SDK se puede ejecutar en máquinas que tengan versiones mayores o iguales a 5.2.1 de PHP. Adicionalmente se requieren las siguientes extensiones de PHP en tu servidor:
+Para realizar el proceso de conexión con el API, el SDK se puede ejecutar en máquinas que tengan versiones mayores o iguales a 5.2.1 de PHP. Adicionalmente se requieren las siguientes extensiones de `PHP` en tu servidor:
 
 - curl
 + xml
 - mbstring
 + json
 
-<a href="/sdk/java/payu-php-sdk-4.5.7.zip" class="payu-btn payu-btn-blue">Puedes obtener la clase aquí: v4.5.7</a>
-
 Deberás además incluir la clase PayU:
 
 ~~~ php
 <?php
 require_once '[ruta/payu-php-sdk]/lib/PayU.php';
+...
+?>
+~~~
+
+<a href="/downloads/sdk/java/payu-php-sdk-4.5.7.zip" class="payu-btn payu-btn-blue">Puedes obtener la clase aquí: v4.5.7</a>
+
+Antes de realizar cualquier operación con el SDK PHP, se deben asignar ciertos valores iniciales los cuales son comunes para todas las operaciones soportadas y se configuran dependiendo del comercio.
+
+~~~ php
+<?php
+PayU::$apiKey = "xxxxxxxxxxxx"; //Ingrese aquí su propio apiKey.
+PayU::$apiLogin = "xxxxxxxxxxxx"; //Ingrese aquí su propio apiLogin.
+PayU::$merchantId = "xxxxxxxx"; //Ingrese aquí su Id de Comercio.
+PayU::$language = SupportedLanguages::ES; //Seleccione el idioma.
+PayU::$isTest = false; //Dejarlo True cuando sean pruebas.
 ...
 ?>
 ~~~
@@ -30,18 +43,7 @@ require_once '[ruta/payu-php-sdk]/lib/PayU.php';
 |apiKey|String|Sí|El *API Key* del comercio.|
 |merchantId|String|Sí|El identificador del comercio.|
 
-~~~ php
-<?php
-PayU::$apiKey = "xxxxxxxxxxxx"; //Ingrese aquí su propio apiKey.
-PayU::$apiLogin = "xxxxxxxxxxxx"; //Ingrese aquí su propio apiLogin.
-PayU::$merchantId = "1"; //Ingrese aquí su Id de Comercio.
-PayU::$language = SupportedLanguages::ES; //Seleccione el idioma.
-PayU::$isTest = false; //Dejarlo True cuando sean pruebas.
-...
-?>
-~~~
-
-Adicionalmente, se debe configurar el API para que dirija las peticiones a la URL correspondientes utilizando la clase Environment como se muestra a continuación:  
+Adicionalmente, se debe configurar el SDK para que dirija las peticiones a la URL correspondientes utilizando la clase Environment:
 
 ~~~ php
 <?php

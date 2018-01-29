@@ -1,25 +1,13 @@
 ---
 title: Conectividad con PayU
-position: 3.1.5
+position: 3.10.5
 description: Valida la conectividad con nuestra plataforma
 ---
 
-Antes de iniciar la generación de transacciones a traves de nuestro API, deberás verificar la conectividad con nuestra plataforma.
+Antes de iniciar la generación de transacciones, deberás verificar la conectividad con nuestra plataforma.
 
-Lo puedes verificar mediante el método *doPing*
+Lo puedes verificar mediante el método `PING` para API o `doPing` para SDK.
 
-~~~ xml
-<request>
-   <language>en</language>
-   <command>PING</command>
-   <merchant>
-      <apiLogin>pRRXKOl8ikMmt9u</apiLogin>
-      <apiKey>4Vj8eK4rloUd272L48hsrarnUA</apiKey>
-   </merchant>
-   <isTest>false</isTest>
-</request>
-~~~
-{: title="XML" }
 ~~~ json
 {
    "test": false,
@@ -32,6 +20,18 @@ Lo puedes verificar mediante el método *doPing*
 }
 ~~~
 {: title="JSON" }
+~~~ xml
+<request>
+   <language>en</language>
+   <command>PING</command>
+   <merchant>
+      <apiLogin>pRRXKOl8ikMmt9u</apiLogin>
+      <apiKey>4Vj8eK4rloUd272L48hsrarnUA</apiKey>
+   </merchant>
+   <isTest>false</isTest>
+</request>
+~~~
+{: title="XML" }
 ~~~ java
 boolean response = PayUPayments.doPing();
 LoggerUtil.info("{0}", response);
@@ -41,7 +41,6 @@ LoggerUtil.info("{0}", response);
 <?php
 $response = PayUPayments::doPing();
 $response->code;
-...
 ?>
 ~~~
 {: title="SDK PHP" }
