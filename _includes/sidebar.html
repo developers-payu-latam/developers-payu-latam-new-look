@@ -1,56 +1,62 @@
 <div id="sidebar" class="sidebar">
 
-	<ul>
+	<!-- <ul>
 		<li class="nav-item top-level {% if page.url == '/' %}current{% endif %}">
 			{% assign home = site.html_pages | where: 'url', '/' | first %}
 			<h6><b><a href="{{ site.baseurl }}/">{{ home.title }}</a></b></h6>
 		</li>
 	</ul>
-  <br/>
+  <br/> -->
 	{% if site.data.directory.toc2[0] %}
 	  {% for item in site.data.directory.toc2 %}
-		<details>
-			<summary><b>{{ item.title }}</b></summary>
-	      {% if item.subfolderitems[0] %}
-	        <ul>
-	          {% for entry in item.subfolderitems %}
-							{% if entry.page == "Errores comunes" or entry.page == "Soporte" or entry.page == "Foros" or entry.page == "FAQ" or entry.page == "Introducción" %}
-								<a href="{{ entry.url }}">{{ entry.page }}</a>
-							{% else %}
-								<details>
-			              <summary>{{ entry.page }}</summary>
-			                {% if entry.subsubfolderitems[0] %}
-			                  <ul>
-			                  {% for subentry in entry.subsubfolderitems %}
-													{% if subentry.page == "Formulario de pago" or subentry.page == "Página de respuesta" or subentry.page == "Página de confirmacion" or subentry.page == "Botón de pago" or subentry.page == "Solicitudes de pago" or subentry.page == "Terminal virtual" or subentry.page == "Cupones de pago" or subentry.page == "Tarjetas de cobranza" or subentry.page == "Introducción" or subentry.page == "Completar registro" or subentry.page == "Magento" or subentry.page == "Drupal" or subentry.page == "OsCommerce" or subentry.page == "PrestaShop" or subentry.page == "Shopify" or subentry.page == "WooCommerce" or subentry.page == "Otros" or subentry.page == "Vtex" or subentry.page == "Configuraciones iniciales" or subentry.page == "Consulta por orden" or subentry.page == "Consulta por transacción" or subentry.page == "Consulta por referencia" or subentry.page == "Disputas" or subentry.page == "Errores comunes" or subentry.page == "Medios de pago" or subentry.page == "Formas de pago" or subentry.page == "Promociones" or subentry.page == "Pagos recurrentes" or subentry.page == "Tokenización" or subentry.page == "Conectividad con PayU" or subentry.page == "Medios de pago activos" or subentry.page == "API" or subentry.page == "SDK PHP" or subentry.page == "SDK Java" or subentry.page == "Solicitud de reembolso" or subentry.page == "Solicitud de anulación" or subentry.page == "VirtueMart" or subentry.page == "OpenCart"  %}
-														<a href="{{ subentry.url }}">{{ subentry.page }}</a>
-													{% else %}
-														<details>
-				                      <summary>{{ subentry.page }}</summary>
-															{% if subentry.subsubsubfolderitems[0] %}
-																<ul>
-																{% for subsubentry in subentry.subsubsubfolderitems %}
-																	<li><a href="{{ subsubentry.url }}">{{ subsubentry.page }}</a></li>
-																{% endfor %}
-																</ul>
+			{% if item.title == "Inicio" %}
+				<a href="{{ item.url }}" style="font-size:1.0em;"><strong>{{ item.title }}</strong></a>
+			{% elsif item.title == "Estado de nuestros servicios" %}
+				<a href="{{ item.url }}" style="font-size:1.0em;" target="_blank"><strong>{{ item.title }}</strong></a>
+			{% else %}
+				<details>
+					<summary><b>{{ item.title }}</b></summary>
+			      {% if item.subfolderitems[0] %}
+			        <ul>
+			          {% for entry in item.subfolderitems %}
+									{% if entry.page == "Errores comunes" or entry.page == "Soporte" or entry.page == "Foros" or entry.page == "FAQ" or entry.page == "Introducción" %}
+										<a href="{{ entry.url }}">{{ entry.page }}</a>
+									{% else %}
+										<details>
+					              <summary>{{ entry.page }}</summary>
+					                {% if entry.subsubfolderitems[0] %}
+					                  <ul>
+					                  {% for subentry in entry.subsubfolderitems %}
+															{% if subentry.page == "Formulario de pago" or subentry.page == "Página de respuesta" or subentry.page == "Página de confirmación" or subentry.page == "Botón de pago" or subentry.page == "Solicitudes de pago" or subentry.page == "Terminal virtual" or subentry.page == "Cupones de pago" or subentry.page == "Tarjetas de cobranza" or subentry.page == "Introducción" or subentry.page == "Completar registro" or subentry.page == "Magento" or subentry.page == "Drupal" or subentry.page == "OsCommerce" or subentry.page == "PrestaShop" or subentry.page == "Shopify" or subentry.page == "WooCommerce" or subentry.page == "Otros" or subentry.page == "Vtex" or subentry.page == "Configuraciones iniciales" or subentry.page == "Consulta por orden" or subentry.page == "Consulta por transacción" or subentry.page == "Consulta por referencia" or subentry.page == "Disputas" or subentry.page == "Errores comunes" or subentry.page == "Medios de pago" or subentry.page == "Formas de pago" or subentry.page == "Promociones" or subentry.page == "Pagos recurrentes" or subentry.page == "Tokenización" or subentry.page == "Conectividad con PayU" or subentry.page == "Medios de pago activos" or subentry.page == "API" or subentry.page == "SDK PHP" or subentry.page == "SDK Java" or subentry.page == "Solicitud de reembolso" or subentry.page == "Solicitud de anulación" or subentry.page == "VirtueMart" or subentry.page == "OpenCart" or subentry.page == "Petición de pago" %}
+																<a href="{{ subentry.url }}">{{ subentry.page }}</a>
+															{% else %}
+																<details>
+						                      <summary>{{ subentry.page }}</summary>
+																	{% if subentry.subsubsubfolderitems[0] %}
+																		<ul>
+																		{% for subsubentry in subentry.subsubsubfolderitems %}
+																			<li><a href="{{ subsubentry.url }}">{{ subsubentry.page }}</a></li>
+																		{% endfor %}
+																		</ul>
+																	{% endif %}
+																</details>
 															{% endif %}
-														</details>
-													{% endif %}
-			                  {% endfor %}
-			                  </ul>
-			                {% endif %}
-										</details>
-							{% endif %}
-	          {% endfor %}
-	        </ul>
-	      {% endif %}
-				</details>
+					                  {% endfor %}
+					                  </ul>
+					                {% endif %}
+												</details>
+									{% endif %}
+			          {% endfor %}
+			        </ul>
+			      {% endif %}
+						</details>
+				{% endif %}
 		  {% endfor %}
 	{% endif %}
-<br/>
+	<!-- <br/>
 	<ul>
 		<li>
 			<h6><b><a href="http://status.payulatam.com/" target=_blank>PayU Latam Status</a></b></h6>
 		</li>
-	</ul>
+	</ul> -->
 </div>

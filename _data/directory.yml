@@ -1,4 +1,6 @@
 toc2:
+  - title: Inicio
+    url: /#
   - title: WebCheckout #item
     subfolderitems:
       - page: Introducción
@@ -12,7 +14,7 @@ toc2:
             url: /#webcheckoutargentinapayment_form
           - page: Página de respuesta
             url: /#webcheckoutargentinaresponse_page
-          - page: Página de confirmacion
+          - page: Página de confirmación
             url: /#webcheckoutargentinaconfirmation_page
       - page: Brasil
 #        subsubsubfolderitems:
@@ -21,7 +23,7 @@ toc2:
             url: /#webcheckoutbrazilpayment_form
           - page: Página de respuesta
             url: /#webcheckoutbrazilresponse_page
-          - page: Página de confirmacion
+          - page: Página de confirmación
             url: /#webcheckoutbrazilconfirmation_page
       - page: Chile
 #        subsubsubfolderitems:
@@ -30,7 +32,7 @@ toc2:
             url: /#webcheckoutchilepayment_form
           - page: Página de respuesta
             url: /#webcheckoutchileresponse_page
-          - page: Página de confirmacion
+          - page: Página de confirmación
             url: /#webcheckoutchileconfirmation_page
       - page: Colombia
 #        subsubsubfolderitems:
@@ -39,7 +41,7 @@ toc2:
             url: /#webcheckoutcolombiapayment_form
           - page: Página de respuesta
             url: /#webcheckoutcolombiaresponse_page
-          - page: Página de confirmacion
+          - page: Página de confirmación
             url: /#webcheckoutcolombiaconfirmation_page
       - page: México
 #        subsubsubfolderitems:
@@ -48,7 +50,7 @@ toc2:
             url: /#webcheckoutmexicopayment_form
           - page: Página de respuesta
             url: /#webcheckoutmexicoresponse_page
-          - page: Página de confirmacion
+          - page: Página de confirmación
             url: /#webcheckoutmexicoconfirmation_page
       - page: Panamá
 #        subsubsubfolderitems:
@@ -57,7 +59,7 @@ toc2:
             url: /#webcheckoutpanamapayment_form
           - page: Página de respuesta
             url: /#webcheckoutpanamaresponse_page
-          - page: Página de confirmacion
+          - page: Página de confirmación
             url: /#webcheckoutpanamaconfirmation_page
       - page: Perú
 #        subsubsubfolderitems:
@@ -66,7 +68,7 @@ toc2:
             url: /#webcheckoutperupayment_form
           - page: Página de respuesta
             url: /#webcheckoutperuresponse_page
-          - page: Página de confirmacion
+          - page: Página de confirmación
             url: /#webcheckoutperuconfirmation_page
       - page: Carritos de compra
         subsubfolderitems:
@@ -425,3 +427,5 @@ toc2:
       url: /#helpsupport
     - page: Foros
       url: /#helpforum
+  - title: Estado de nuestros servicios
+    url: http://status.payulatam.com/
