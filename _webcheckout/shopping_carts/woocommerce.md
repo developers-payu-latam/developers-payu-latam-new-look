@@ -1,7 +1,7 @@
 ---
-title: Carritos de compra
-position: 2.39
-description: <img src="/images/illustrations/woocommerce.jpg">
+title: <img src="/images/illustrations/woocommerce.jpg">
+position: 2.37
+description: Carritos de compra
 ---
 
 23 Carritos de compra

@@ -1,7 +1,7 @@
 ---
-title: Soluciones preintegradas
-position: 2.40
-description: <img src="/images/illustrations/prestashop.png">
+title: <img src="/images/illustrations/prestashop.png">
+position: 2.38
+description: Soluciones preintegradas
 ---
 
 24 Soluciones preintegradas

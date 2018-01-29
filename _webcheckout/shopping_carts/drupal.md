@@ -1,7 +1,7 @@
 ---
-title: Carritos de compra
+title: <img src="/images/illustrations/drupal.jpg">
 position: 2.32
-description: <img src="/images/illustrations/drupal.jpg">
+description: Carritos de compra
 ---
 
 23 Carritos de compra

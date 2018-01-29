@@ -1,7 +1,7 @@
 ---
-title: Página de respuesta
+title: Página de respuesta ~ Argentina <img src="/images/illustrations/argentina_logo.png" width="50">
 position: 2.12
-description: WebCheckout <img src="/images/illustrations/argentina_logo.png" width="50">
+description: WebCheckout
 ---
 
 Al finalizar una transacción nuestro sistema enviará al pagador a la página de respuesta. A esta página nuestro sistema envía la información del resultado de la transacción mediante el método **HTTP GET**.
@@ -15,7 +15,7 @@ Para cuentas de Brasil no hay redireccionamiento a la página de respuesta.
 No dependas de la página de respuesta para actualizar tu base de datos o ejecutar procesos ya que es posible que el usuario no regrese a la misma; utiliza la [página de confirmación]({{ "#webcheckoutargentinaconfirmation_page" }}).
 {: .error }
 
-#### ¿Cómo puedo integrar la página de respuesta?
+##### ¿Cómo puedo integrar la página de respuesta?
 
 Lo puedes hacer en la forma de tu elección, lo único que debes hacer es capturar la información que te enviamos en el GET y presentarla a tus clientes.
 
@@ -130,8 +130,8 @@ else
 ?>
 ~~~
 {: title="PHP" }
-
-#### Signature
+<a name="sigresponsewcarg"></a> <!--- Anchor linking -->
+##### Signature
 
 Debes validar la firma que PayU te devuelve ya que es esta la que te permitirá comprobar la integridad de los datos. Deberás generar tu propia firma y compararla con la que se envía en el parámetro "signature" en el **GET**. En esta oportunidad, la cadena estará compuesta de la siguiente forma:
 

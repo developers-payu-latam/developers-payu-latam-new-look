@@ -1,7 +1,7 @@
 ---
-title: Soluciones preintegradas
-position: 2.42
-description: <img src="/images/illustrations/vtex.jpg">
+title: <img src="/images/illustrations/vtex.jpg">
+position: 2.40
+description: Soluciones preintegradas
 ---
 
 24 Soluciones preintegradas

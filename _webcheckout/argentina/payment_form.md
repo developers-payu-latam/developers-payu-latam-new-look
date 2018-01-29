@@ -1,19 +1,19 @@
 ---
-title: Formulario de pago
-description: WebCheckout <img src="/images/illustrations/argentina_logo.png" width="50">
+title: Formulario de pago ~ Argentina <img src="/images/illustrations/argentina_logo.png" width="50">
+description: WebCheckout
 position: 2.11
 ---
 
 En esta sección verás cómo enviar los datos de una transacción a PayU. Debes generar un formulario HTML con los datos de la transacción utilizando el método **HTTP POST** y que apunte a nuestro sistema.
 
-#### Medios de pago disponibles
+##### Medios de pago disponibles
 
 |<img src="/images/illustrations/tarjetas-de-credito.png"><br>Tarjetas de Crédito|<img src="/images/illustrations/master.png"><img src="/images/illustrations/visa.png"><img src="/images/illustrations/american.png"><img src="/images/illustrations/naranja.png"><br><img src="/images/illustrations/cabal.png"><img src="/images/illustrations/shopping.png"><img src="/images/illustrations/argencard.png"><img src="/images/illustrations/cencosud.png">|
-|<img src="/images/illustrations/tarjetas-de-debito.png"><br>Tarjetas de Débito|<img src="/images/illustrations/visa.png" align="left">|
-|<img src="/images/illustrations/efectivo.png"><br>Efectivo|<img src="/images/illustrations/pago-facil.png"><img src="/images/illustrations/rapi-pago.png"><img src="/images/illustrations/cobro-express.png"><img src="/images/illustrations/ripsa.png"><br><img src="/images/illustrations/banco-provincia.png" align="left">|
-{:.nobordertablecenterf}
+|<img src="/images/illustrations/tarjetas-de-debito.png"><br>Tarjetas de Débito|<img src="/images/illustrations/visa.png">|
+|<img src="/images/illustrations/efectivo.png"><br>Efectivo|<img src="/images/illustrations/pago-facil.png"><img src="/images/illustrations/rapi-pago.png"><img src="/images/illustrations/cobro-express.png"><img src="/images/illustrations/ripsa.png"><br><img src="/images/illustrations/banco-provincia.png">|
+{:.nobordertablepaymentmethods}
 
-#### Formulario
+##### Formulario
 
 Te presentamos un ejemplo del formulario que debes construir con algunas de las variables que se pueden enviar a nuestra pasarela.
 
@@ -116,7 +116,7 @@ Te presentamos un ejemplo del formulario que debes construir con algunas de las 
 Una vez tengas el formulario listo, deberás apuntar a la url: **https://gateway.payulatam.com/ppp-web-gateway/**
 {: .info }
 
-#### Signature
+##### Signature
 
 Es una forma única de validar los pagos realizados a través de la plataforma, garantizando su autenticidad. Consiste en una cadena de caracteres a la cual se le aplica algoritmo *MD5*, *SHA1* o *SHA256* para encriptarla. La cadena está compuesta de la siguiente forma:
 
@@ -126,7 +126,7 @@ ApiKey~merchantId~referenceCode~amount~currency
 
 Puedes comparar tu firma con nuestro [generador aquí]({{ "#toolssignaturepayment_request" }})
 
-#### Pruebas de tu integración - Ambiente Sandbox
+##### Pruebas de tu integración - Ambiente Sandbox
 
 Si deseas validar que tu integración sea correcta, puedes hacer uso de nuestro ambiente de pruebas, para esto deberás generar tu formulario HTML con los siguientes parámetros:
 
@@ -138,7 +138,7 @@ Apuntando a la url: **https://sandbox.gateway.payulatam.com/ppp-web-gateway/**
 
 Es importante que durante la realización de las pruebas no utilices datos de tarjetas de crédito reales, puedes utilizar generadores de tarjetas de crédito.
 {: .info }
-El campo *test = 1* lo incluyes para indicarle al sistema que es una transacción de prueba.
+El campo `test = 1` lo incluyes para indicarle al sistema que es una transacción de prueba.
 {: .info }
 Las pruebas pueden realizarse sólo con tarjetas de crédito, los medios de pago en efectivo no pueden ser probados a través de este método.
 {: .info }
@@ -151,7 +151,7 @@ En nuestro Sandbox podrás realizar pruebas de los tres diferentes estados de un
 - **REJECTED:** Si deseas que la transacción quede en estado Rechazado.
 - **PENDING:** Si deseas que la transacción quede en estado Pendiente.
 
-<center><img src="/images/illustrations/sandbox-ar-1.png" width="700"></center>
+<center><img src="/images/illustrations/sandbox-ar-1.png" style="width: 100%;"></center>
 
 En el campo Número de Tarjeta debes ingresar un número de tarjeta válido y que corresponda a la franquicia seleccionada. Para esto puedes buscar un generador de tarjetas de crédito en Internet.
 {: .warning }

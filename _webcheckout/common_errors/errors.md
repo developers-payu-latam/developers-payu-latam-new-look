@@ -1,6 +1,6 @@
 ---
 title: Errores Comunes
-position: 2.44
+position: 2.42
 description: Errores que se pueden presentar
 ---
 23
