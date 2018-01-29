@@ -1,7 +1,7 @@
 ---
 title: Integraciones PayU
 position: 1
-description: Bienvenido al sitio de desarrolladores de PayULatam<br>Elige el método que más se ajuste a las necesidades de tu negocio para integrar tu sitio web
+description: Bienvenido al sitio de desarrolladores de PayULatam
 ---
 
 Conoce los productos que actualmente ofrece PayU Latam:
@@ -19,19 +19,19 @@ También puedes encontrar
 |<a href="#helpforum"><img src="/images/illustrations/pqrs-4.png" alt="WC" style="width:70px;height:70px;border:0;"></a>|**<font size="5">Foros</font>**<br>Consulta nuestro foro de ayuda.|
 {:.nobordertablecentered}
 
-#### Sobre la documentación
+##### Sobre la documentación
 
 <details>
   <summary>Si encuentras algo como esto dale clic ya que encontraras...</summary>
     ... información complementaria en su interior.
 </details><br>
-A lo largo de la documentación verás información resaltada de la siguiente forma:
+También verás información resaltada:
 
 Obtendrás un buen resultado si haces esto
 {: .success }
-Información importante o recomendación
+Información importante o recomendación que debes tener en cuenta
 {: .info }
-Advertencía, algo puede salir mal si haces esto
+Advertencia, algo puede salir mal si haces esto
 {: .warning }
 Error o restricción, algo saldrá mal si haces esto
 {: .error }

@@ -21,6 +21,7 @@
 		<script src="/js/signature-generator/validations.js"></script>
 		<script src="/js/error.js"></script>
 		<script src="/js/backtotop.js"></script>
+		<script src="/js/gotofaq.js"></script>
 		{% seo %}
 
 		{% if jekyll.environment == 'production' %}
@@ -50,8 +51,11 @@
 
 		</header>
 
-		<a href="#" id="scroll" style="display: none;"><span></span></a>
+		<div class="faqlk">
+			<a href="#" id="scroll">&nbsp;Volver al inicio&nbsp;</a>
 
+			<a href="#" id="faq">&nbsp;Escribe a Soporte Técnico&nbsp;</a>
+		</div>
 		<div class="main">
 			{{ content }}
 		</div>

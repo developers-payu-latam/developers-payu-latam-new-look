@@ -3,64 +3,71 @@ toc2:
     subfolderitems:
       - page: Introducción
         url: /#webcheckoutothersintro
-      - page: Integración #entry
+#      - page: Integración #entry
+#        subsubfolderitems:
+      - page: Argentina #subentry
+#        subsubsubfolderitems:
         subsubfolderitems:
-          - page: Argentina #subentry
-            subsubsubfolderitems:
-              - page: Formulario de pago #subsubentry
-                url: /#webcheckoutargentinapayment_form
-              - page: Página de respuesta
-                url: /#webcheckoutargentinaresponse_page
-              - page: Página de confirmacion
-                url: /#webcheckoutargentinaconfirmation_page
-          - page: Brasil
-            subsubsubfolderitems:
-              - page: Formulario de pago
-                url: /#webcheckoutbrazilpayment_form
-              - page: Página de respuesta
-                url: /#webcheckoutbrazilresponse_page
-              - page: Página de confirmacion
-                url: /#webcheckoutbrazilconfirmation_page
-          - page: Chile
-            subsubsubfolderitems:
-              - page: Formulario de pago
-                url: /#webcheckoutchilepayment_form
-              - page: Página de respuesta
-                url: /#webcheckoutchileresponse_page
-              - page: Página de confirmacion
-                url: /#webcheckoutchileconfirmation_page
-          - page: Colombia
-            subsubsubfolderitems:
-              - page: Formulario de pago
-                url: /#webcheckoutcolombiapayment_form
-              - page: Página de respuesta
-                url: /#webcheckoutcolombiaresponse_page
-              - page: Página de confirmacion
-                url: /#webcheckoutcolombiaconfirmation_page
-          - page: México
-            subsubsubfolderitems:
-              - page: Formulario de pago
-                url: /#webcheckoutmexicopayment_form
-              - page: Página de respuesta
-                url: /#webcheckoutmexicoresponse_page
-              - page: Página de confirmacion
-                url: /#webcheckoutmexicoconfirmation_page
-          - page: Panamá
-            subsubsubfolderitems:
-              - page: Formulario de pago
-                url: /#webcheckoutpanamapayment_form
-              - page: Página de respuesta
-                url: /#webcheckoutpanamaresponse_page
-              - page: Página de confirmacion
-                url: /#webcheckoutpanamaconfirmation_page
-          - page: Perú
-            subsubsubfolderitems:
-              - page: Formulario de pago
-                url: /#webcheckoutperupayment_form
-              - page: Página de respuesta
-                url: /#webcheckoutperuresponse_page
-              - page: Página de confirmacion
-                url: /#webcheckoutperuconfirmation_page
+          - page: Formulario de pago #subsubentry
+            url: /#webcheckoutargentinapayment_form
+          - page: Página de respuesta
+            url: /#webcheckoutargentinaresponse_page
+          - page: Página de confirmacion
+            url: /#webcheckoutargentinaconfirmation_page
+      - page: Brasil
+#        subsubsubfolderitems:
+        subsubfolderitems:
+          - page: Formulario de pago
+            url: /#webcheckoutbrazilpayment_form
+          - page: Página de respuesta
+            url: /#webcheckoutbrazilresponse_page
+          - page: Página de confirmacion
+            url: /#webcheckoutbrazilconfirmation_page
+      - page: Chile
+#        subsubsubfolderitems:
+        subsubfolderitems:
+          - page: Formulario de pago
+            url: /#webcheckoutchilepayment_form
+          - page: Página de respuesta
+            url: /#webcheckoutchileresponse_page
+          - page: Página de confirmacion
+            url: /#webcheckoutchileconfirmation_page
+      - page: Colombia
+#        subsubsubfolderitems:
+        subsubfolderitems:
+          - page: Formulario de pago
+            url: /#webcheckoutcolombiapayment_form
+          - page: Página de respuesta
+            url: /#webcheckoutcolombiaresponse_page
+          - page: Página de confirmacion
+            url: /#webcheckoutcolombiaconfirmation_page
+      - page: México
+#        subsubsubfolderitems:
+        subsubfolderitems:
+          - page: Formulario de pago
+            url: /#webcheckoutmexicopayment_form
+          - page: Página de respuesta
+            url: /#webcheckoutmexicoresponse_page
+          - page: Página de confirmacion
+            url: /#webcheckoutmexicoconfirmation_page
+      - page: Panamá
+#        subsubsubfolderitems:
+        subsubfolderitems:
+          - page: Formulario de pago
+            url: /#webcheckoutpanamapayment_form
+          - page: Página de respuesta
+            url: /#webcheckoutpanamaresponse_page
+          - page: Página de confirmacion
+            url: /#webcheckoutpanamaconfirmation_page
+      - page: Perú
+#        subsubsubfolderitems:
+        subsubfolderitems:
+          - page: Formulario de pago
+            url: /#webcheckoutperupayment_form
+          - page: Página de respuesta
+            url: /#webcheckoutperuresponse_page
+          - page: Página de confirmacion
+            url: /#webcheckoutperuconfirmation_page
       - page: Carritos de compra
         subsubfolderitems:
           - page: Drupal
@@ -68,19 +75,11 @@ toc2:
           - page: Magento
             url: /#webcheckoutshopping_cartsmagento
           - page: OpenCart
-            subsubsubfolderitems:
-              - page: Versión 1.5
-                url: /#webcheckoutshopping_cartsopen15
-              - page: Versión 2.0
-                url: /#webcheckoutshopping_cartsopen2
+            url: /#webcheckoutshopping_cartsopencart
           - page: OsCommerce
             url: /#webcheckoutshopping_cartsoscommerce
           - page: VirtueMart
-            subsubsubfolderitems:
-              - page: Versión 2.0
-                url: /#webcheckoutshopping_cartsvirtue2
-              - page: Versión 3.0
-                url: /#webcheckoutshopping_cartsvirtue3
+            url: /#webcheckoutshopping_cartsvirtuemart
           - page: WooCommerce
             url: /#webcheckoutshopping_cartswoocommerce
       - page: Aliados
@@ -118,19 +117,21 @@ toc2:
 #        subsubsubfolderitems:
           - page: Medios de pago
             url: /#apiargentinapayment_methods
-          - page: Tipos de pago
+          - page: Formas de pago
             url: /#apiargentinapayment_types
           - page: Promociones
             url: /#apiargentinapromotions
-          - page: Pagos recurrentes
-            url: /#apiargentinarecurring_payments
+#          - page: Pagos recurrentes
+#            url: /#apiargentinarecurring_payments
           - page: Tokenización
             url: /#apiargentinatokenization
       - page: Brasil
         subsubfolderitems:
 #        subsubsubfolderitems:
-          - page: Métodos de pago
+          - page: Medios de pago
             url: /#apibrazilpayment_methods
+          - page: Formas de pago
+            url: /#apiargentinapayment_types
           - page: Promociones
             url: /#apibrazilpromotions
           - page: Pagos recurrentes
@@ -140,8 +141,10 @@ toc2:
       - page: Chile
         subsubfolderitems:
 #        subsubsubfolderitems:
-          - page: Métodos de pago
+          - page: Medios de pago
             url: /#apichilepayment_methods
+          - page: Formas de pago
+            url: /#apiargentinapayment_types
           - page: Promociones
             url: /#apichilepromotions
           - page: Pagos recurrentes
@@ -151,8 +154,10 @@ toc2:
       - page: Colombia
         subsubfolderitems:
 #        subsubsubfolderitems:
-          - page: Métodos de pago
+          - page: Medios de pago
             url: /#apicolombiapayment_methods
+          - page: Formas de pago
+            url: /#apiargentinapayment_types
           - page: Promociones
             url: /#apicolombiapromotions
           - page: Pagos recurrentes
@@ -162,8 +167,10 @@ toc2:
       - page: México
         subsubfolderitems:
 #        subsubsubfolderitems:
-          - page: Métodos de pago
+          - page: Medios de pago
             url: /#apimexicopayment_methods
+          - page: Formas de pago
+            url: /#apiargentinapayment_types
           - page: Promociones
             url: /#apimexicopromotions
           - page: Pagos recurrentes
@@ -173,8 +180,10 @@ toc2:
       - page: Panamá
         subsubfolderitems:
 #        subsubsubfolderitems:
-          - page: Métodos de pago
+          - page: Medios de pago
             url: /#apipanamapayment_methods
+          - page: Formas de pago
+            url: /#apiargentinapayment_types
           - page: Promociones
             url: /#apipanamapromotions
           - page: Pagos recurrentes
@@ -184,8 +193,10 @@ toc2:
       - page: Perú
         subsubfolderitems:
 #        subsubsubfolderitems:
-          - page: Métodos de pago
+          - page: Medios de pago
             url: /#apiperupayment_methods
+          - page: Formas de pago
+            url: /#apiargentinapayment_types
           - page: Promociones
             url: /#apiperupromotions
           - page: Pagos recurrentes
@@ -278,7 +289,7 @@ toc2:
             url: /#apiquerysquery_by_orderid
           - page: Consulta por transacción
             url: /#apiquerysquery_by_transactionid
-      - page: Reembolsos - Anulaciónes
+      - page: Reembolsos y anulaciónes
         subsubfolderitems:
           - page: Introducción
             url: /#apirefund_and_voidintro

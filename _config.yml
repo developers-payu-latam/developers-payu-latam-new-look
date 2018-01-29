@@ -48,6 +48,7 @@ collections:
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
+#  - jekyll-multiple-languages-plugin
 
 exclude:
   - readme.md
@@ -65,3 +66,7 @@ types:
   - put
   - delete
   - post
+
+# languages: ["es", "en", "pt"]
+
+# exclude_from_localizations: ["js", "images", "css", "cert", "busqueda", "sdk", ""]
