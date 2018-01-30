@@ -4,7 +4,7 @@ position: 3.11.15
 description: API y SDK
 ---
 
-Tenemos las siguientes opciones disponibles para pagos en efectivo; deberás enviarlos en la variable `paymentMethod` para API o `PAYMENT_METHOD` para SDK; de acuerdo con la siguiente <a name="pMCarg"></a>tabla:
+Tenemos las siguientes opciones disponibles para pagos en efectivo; deberás enviarlos en la variable <code id="codeinl">paymentMethod</code> para API o <code id="codeinl">PAYMENT_METHOD</code> para SDK; de acuerdo con la siguiente <a name="pMCarg"></a>tabla:
 
 |Franquicias|Valor a enviar<br>en la petición|
 |---|---|

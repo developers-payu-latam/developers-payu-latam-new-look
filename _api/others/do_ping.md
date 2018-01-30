@@ -6,7 +6,7 @@ description: Valida la conectividad con nuestra plataforma
 
 Antes de iniciar la generación de transacciones, deberás verificar la conectividad con nuestra plataforma.
 
-Lo puedes verificar mediante el método `PING` para API o `doPing` para SDK.
+Lo puedes verificar mediante el método <code id="codeinl">PING</code> para API o <code id="codeinl">doPing</code> para SDK.
 
 ~~~ json
 {

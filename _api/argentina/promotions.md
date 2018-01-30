@@ -14,13 +14,13 @@ El header debe tener la siguiente estructura:
 Authorization Header: "Hmac" + " " + MerchantPublicKey + ":" + Signature"
 ~~~
 
-En donde el `Signature` se crea de la siguiente forma:
+En donde el <code id="codeinl">Signature</code> se crea de la siguiente forma:
 
 ~~~
 Signature = Base64(HMAC-SHA256(MerchantApiKey,ContentToSign))
 ~~~
 
-El `ContentToSign` corresponde a:
+El <code id="codeinl">ContentToSign</code> corresponde a:
 
 ~~~
 HTTP-Verb + "\n" + "\n" + "\n" +
@@ -47,7 +47,7 @@ Se concatena la anterior información y se le aplica la función HMAC de la sigu
 Authorization: Hmac PKaC6H4cEDJD919n705L544kSU:sIxh54sANfKaxO0ugX6QwhPmZRS+TGy8gmdCwr3kjP0=
 ~~~
 
-Para evitar Replay attacks, es necesario que envíes el header `Date`. Debido a las restricciones presentes en algunos clientes REST, también es posible que envíes el header `x-hmac-date` para cumplir con los requerimientos de seguridad
+Para evitar Replay attacks, es necesario que envíes el header <code id="codeinl">Date</code>. Debido a las restricciones presentes en algunos clientes REST, también es posible que envíes el header <code id="codeinl">x-hmac-date</code> para cumplir con los requerimientos de seguridad
 
 A continuación se describirán los atributos y tipos de campos de cada una de las variables que se retornan por parte de PayU en caso de realizar una consulta al API de Pricing y Promociones.
 
@@ -286,7 +286,7 @@ Las consultas al API de Promociones deberas hacerlas a las siguientes URLS:
 - Sandbox: https://sandbox.api.payulatam.com/payments-api/rest/v4.9/pricing
 + Producción: https://api.payulatam.com/payments-api/rest/v4.9/pricing
 
-Usando el método `GET` con los siguientes parametros:
+Usando el método <code id="codeinl">GET</code> con los siguientes parametros:
 
 |Parámetros|¿Obligatorio?|
 |---|---|

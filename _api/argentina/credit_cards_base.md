@@ -4,7 +4,7 @@ position: 3.11.11
 description: API y SDK
 ---
 
-Tenemos las siguientes franquicias disponibles de acuerdo al tipo de transacción que desees realizar; deberás enviarlos en la variable `paymentMethod` para API o `PAYMENT_METHOD` para SDK; de acuerdo con la siguiente <a name="pMarg"></a>tabla:
+Tenemos las siguientes franquicias disponibles de acuerdo al tipo de transacción que desees realizar; deberás enviarlos en la variable <code id="codeinl">paymentMethod</code> para API o <code id="codeinl">PAYMENT_METHOD</code> para SDK; de acuerdo con la siguiente <a name="pMarg"></a>tabla:
 
 |Franquicias|Autorización|Captura|Autorización<br>y captura|Valor a enviar<br>en la petición|
 |---|---|---|---|---|

@@ -138,7 +138,7 @@ Apuntando a la url: **https://sandbox.gateway.payulatam.com/ppp-web-gateway/**
 
 Es importante que durante la realización de las pruebas no utilices datos de tarjetas de crédito reales, puedes utilizar generadores de tarjetas de crédito.
 {: .info }
-El campo `test = 1` lo incluyes para indicarle al sistema que es una transacción de prueba.
+El campo <code id="codeinl">test = 1</code> lo incluyes para indicarle al sistema que es una transacción de prueba.
 {: .info }
 Las pruebas pueden realizarse sólo con tarjetas de crédito, los medios de pago en efectivo no pueden ser probados a través de este método.
 {: .info }

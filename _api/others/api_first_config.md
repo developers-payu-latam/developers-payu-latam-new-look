@@ -4,9 +4,9 @@ position: 3.10.2
 description:
 ---
 
-El intercambio de mensajes se realiza a través de cadenas `XML` o `JSON`, las operaciones se distinguen a través de un comando que se envía en la petición.
+El intercambio de mensajes se realiza a través de cadenas <code id="codeinl">XML</code> o <code id="codeinl">JSON</code>, las operaciones se distinguen a través de un comando que se envía en la petición.
 
-Puedes definir el lenguaje que deseas usar a través de las cabeceras `HTTP Content-type` y `Accept`. Se pueden usar todas las combinaciones posibles.
+Puedes definir el lenguaje que deseas usar a través de las cabeceras <code id="codeinl">HTTP Content-type</code> y <code id="codeinl">Accept</code>. Se pueden usar todas las combinaciones posibles.
 
 |content-type|accept|
 |---|---|

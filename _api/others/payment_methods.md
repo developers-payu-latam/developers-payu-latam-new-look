@@ -4,7 +4,7 @@ position: 3.10.6
 description: Valida los medios de pagos que tienes activos
 ---
 
-Puedes validar los medios de pago activos para tu cuenta mediante el método `GET_PAYMENT_METHODS` para API o `getPaymentMethods` para SDK.
+Puedes validar los medios de pago activos para tu cuenta mediante el método <code id="codeinl">GET_PAYMENT_METHODS</code> para API o <code id="codeinl">getPaymentMethods</code> para SDK.
 
 ~~~ json
 {

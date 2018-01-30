@@ -4,7 +4,7 @@ position: 3.10.4
 description:
 ---
 
-Para realizar el proceso de conexión con el API, el SDK se puede ejecutar en máquinas que tengan versiones mayores o iguales a 5.2.1 de PHP. Adicionalmente se requieren las siguientes extensiones de `PHP` en tu servidor:
+Para realizar el proceso de conexión con el API, el SDK se puede ejecutar en máquinas que tengan versiones mayores o iguales a 5.2.1 de PHP. Adicionalmente se requieren las siguientes extensiones de <code id="codeinl">PHP</code> en tu servidor:
 
 - curl
 + xml

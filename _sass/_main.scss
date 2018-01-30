@@ -457,11 +457,16 @@ hr {
 	box-sizing: border-box;				 /* Opera/IE 8+ */
 
 	pre {
-		 border: 0px;
-		 box-shadow: 0 0 0 1px #eee;
 		 border-radius: 3px;
 		 padding: 10px;
+		 background-color: #EFEFEF;
 	}
+}
+
+#codeinl {
+    border-radius: 3px;
+    padding: 5px;
+    background-color: #EFEFEF;
 }
 
 .code-viewer {
@@ -481,19 +486,19 @@ hr {
 				border: 1px solid transparent;
 
 				&:hover {
-					border-color: #eee;
+					border-color: #000;
 					border-radius: 5px;
 				}
 
 				&.active:hover {
-					border-color: transparent;
+					//border-color: transparent;
 				}
 			}
 		}
 	}
 
 	a {
-		text-decoration: none;
+		text-decoration: underline;
 		color: #777;
 
 		&:hover {
