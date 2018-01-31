@@ -1,7 +1,7 @@
 ---
 title: <img src="/images/illustrations/shopify.jpg">
-position: 2.39
-description: Aliados
+position: 2.41
+description: Solución preintegrada
 ---
 
 La plataforma de comercio Shopify esta originalmente diseñada para procesar pagos a través de tarjetas de crédito únicamente, es por esto que la gestión de ordenes se basa en dos "estados" globales: **Orders** y **Abandoned Checkouts**. Esto representa ciertos inconvenientes con transacciones procesadas con medios de pago en efectivo.

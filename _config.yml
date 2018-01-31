@@ -32,9 +32,6 @@ collections:
   api:
     title: API
     position: 3
-#  sdk:
-#    title: SDK
-#    position: 4
   administrative:
     title: Módulo Administrativo
     position: 5

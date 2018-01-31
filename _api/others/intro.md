@@ -22,7 +22,7 @@ Te ofrecemos dos opciones de integración haciendo uso de nuestra API.
 
 Te ofrecemos las siguientes opciones para el procesamiento de transacciones:
 
-||<img src="/images/illustrations/argentina_logo.png" width="50">|<img src="/images/illustrations/brasil.png" width="50">|<img src="/images/illustrations/chile.png" width="50">|<img src="/images/illustrations/colombia.png" width="50">|<img src="/images/illustrations/mexico.png" width="50">|<img src="/images/illustrations/panama.png" width="50">|<img src="/images/illustrations/peru.png" width="50">|
+||<a href="/#apiargentinapayment_methods"><img src="/images/illustrations/argentina_logo.png" width="50"></a>|<a href="/#apibrazilpayment_methods"><img src="/images/illustrations/brasil.png" width="50"></a>|<a href="/#apichilepayment_methods"><img src="/images/illustrations/chile.png" width="50"></a>|<a href="/#apicolombiapayment_methods"><img src="/images/illustrations/colombia.png" width="50"></a>|<a href="/#apimexicopayment_methods"><img src="/images/illustrations/mexico.png" width="50"></a>|<a href="/#apipanamapayment_methods"><img src="/images/illustrations/panama.png" width="50"></a>|<a href="/#apiperupayment_methods"><img src="/images/illustrations/peru.png" width="50"></a>|
 |---|---|---|---|---|---|---|---|
 |Autorización|✓|✓|✗|✗|✗|✗|✓|
 |Captura|✓|✓|✗|✗|✗|✗|✓|
@@ -41,7 +41,7 @@ Donde:
 
 ##### Servicios y funcionalidades API
 
-||<img src="/images/illustrations/argentina_logo.png" width="50">|<img src="/images/illustrations/brasil.png" width="50">|<img src="/images/illustrations/chile.png" width="50">|<img src="/images/illustrations/colombia.png" width="50">|<img src="/images/illustrations/mexico.png" width="50">|<img src="/images/illustrations/panama.png" width="50">|<img src="/images/illustrations/peru.png" width="50">|
+||<a href="/#apiargentinapayment_methods"><img src="/images/illustrations/argentina_logo.png" width="50"></a>|<a href="/#apibrazilpayment_methods"><img src="/images/illustrations/brasil.png" width="50"></a>|<a href="/#apichilepayment_methods"><img src="/images/illustrations/chile.png" width="50"></a>|<a href="/#apicolombiapayment_methods"><img src="/images/illustrations/colombia.png" width="50"></a>|<a href="/#apimexicopayment_methods"><img src="/images/illustrations/mexico.png" width="50"></a>|<a href="/#apipanamapayment_methods"><img src="/images/illustrations/panama.png" width="50"></a>|<a href="/#apiperupayment_methods"><img src="/images/illustrations/peru.png" width="50"></a>|
 |---|---|---|---|---|---|---|---|
 |Pagos|✓|✓|✓|✓|✓|✓|✓|
 |Promociones|✓|✗|✗|✗|✓|✗|✗|
@@ -54,7 +54,7 @@ Donde:
 
 ##### Servicios y funcionalidades SDK
 
-||<img src="/images/illustrations/argentina_logo.png" width="50">|<img src="/images/illustrations/brasil.png" width="50">|<img src="/images/illustrations/chile.png" width="50">|<img src="/images/illustrations/colombia.png" width="50">|<img src="/images/illustrations/mexico.png" width="50">|<img src="/images/illustrations/panama.png" width="50">|<img src="/images/illustrations/peru.png" width="50">|
+||<a href="/#apiargentinapayment_methods"><img src="/images/illustrations/argentina_logo.png" width="50"></a>|<a href="/#apibrazilpayment_methods"><img src="/images/illustrations/brasil.png" width="50"></a>|<a href="/#apichilepayment_methods"><img src="/images/illustrations/chile.png" width="50"></a>|<a href="/#apicolombiapayment_methods"><img src="/images/illustrations/colombia.png" width="50"></a>|<a href="/#apimexicopayment_methods"><img src="/images/illustrations/mexico.png" width="50"></a>|<a href="/#apipanamapayment_methods"><img src="/images/illustrations/panama.png" width="50"></a>|<a href="/#apiperupayment_methods"><img src="/images/illustrations/peru.png" width="50"></a>|
 |---|---|---|---|---|---|---|---|
 |Pagos|✓|✓|✓|✓|✓|✓|✓|
 |Promociones|✗|✗|✗|✗|✗|✗|✗|

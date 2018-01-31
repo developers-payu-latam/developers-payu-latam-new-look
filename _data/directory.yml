@@ -70,30 +70,32 @@ toc2:
             url: /#webcheckoutperuresponse_page
           - page: Página de confirmación
             url: /#webcheckoutperuconfirmation_page
-      - page: Carritos de compra
-        subsubfolderitems:
-          - page: Drupal
-            url: /#webcheckoutshopping_cartsdrupal
-          - page: Magento
-            url: /#webcheckoutshopping_cartsmagento
-          - page: OpenCart
-            url: /#webcheckoutshopping_cartsopencart
-          - page: OsCommerce
-            url: /#webcheckoutshopping_cartsoscommerce
-          - page: VirtueMart
-            url: /#webcheckoutshopping_cartsvirtuemart
-          - page: WooCommerce
-            url: /#webcheckoutshopping_cartswoocommerce
-      - page: Aliados
-        subsubfolderitems:
-          - page: PrestaShop
-            url: /#webcheckoutalliesprestashop
-          - page: Shopify
-            url: /#webcheckoutalliesshopify
-          - page: Vtex
-            url: /#webcheckoutalliesvtex
-          - page: Otros
-            url: /#webcheckoutalliesothers
+      - page: Aliados, Plugins y<br>Soluciones Preintegradas
+        url: /#webcheckoutothersintro_plugins
+#      - page: Carritos de compra
+#        subsubfolderitems:
+#          - page: Drupal
+#            url: /#webcheckoutshopping_cartsdrupal
+#          - page: Magento
+#            url: /#webcheckoutshopping_cartsmagento
+#          - page: OpenCart
+#            url: /#webcheckoutshopping_cartsopencart
+#          - page: OsCommerce
+#            url: /#webcheckoutshopping_cartsoscommerce
+#          - page: VirtueMart
+#            url: /#webcheckoutshopping_cartsvirtuemart
+#          - page: WooCommerce
+#            url: /#webcheckoutshopping_cartswoocommerce
+#      - page: Soluciones integradas
+#        subsubfolderitems:
+#          - page: PrestaShop
+#            url: /#webcheckoutpreintegrationsprestashop
+#          - page: Shopify
+#            url: /#webcheckoutpreintegrationsshopify
+#      - page: Aliados
+#        subsubfolderitems:
+#          - page: Vtex
+#            url: /#webcheckoutalliesvtex
       - page: Errores comunes
         url: /#webcheckoutcommon_errorserrors
   - title: API y SDK
@@ -120,7 +122,7 @@ toc2:
           - page: Medios de pago
             url: /#apiargentinapayment_methods
           - page: Formas de pago
-            url: /#apiargentinapayment_types
+            url: /#apiargentinacredit_cards_base
           - page: Promociones
             url: /#apiargentinapromotions
 #          - page: Pagos recurrentes
@@ -205,92 +207,16 @@ toc2:
             url: /#apiperurecurring_payments
           - page: Tokenización
             url: /#apiperutokenization
-#      - page: Integración SDK
+#      - page: API de Consultas
 #        subsubfolderitems:
-#          - page: Configuraciones iniciales
-#            url : /#sdkothersfirstconfigurations
-#          - page: Argentina
-#            subsubsubfolderitems:
-#              - page: Métodos de pago
-#                url: /#sdkargentinapayment_methods
-#              - page: Promociones
-#                url: /#sdkargentinapromotions
-#              - page: Pagos recurrentes
-#                url: /#sdkargentinarecurring_payments
-#              - page: Tokenización
-#                url: /#sdkargentinatokenization
-#          - page: Brasil
-#            subsubsubfolderitems:
-#              - page: Métodos de pago
-#                url: /#sdkbrazilpayment_methods
-#              - page: Promociones
-#                url: /#sdkbrazilpromotions
-#              - page: Pagos recurrentes
-#                url: /#sdkbrazilrecurring_payments
-#              - page: Tokenización
-#                url: /#sdkbraziltokenization
-#          - page: Chile
-#            subsubsubfolderitems:
-#              - page: Métodos de pago
-#                url: /#sdkchilepayment_methods
-#              - page: Promociones
-#                url: /#sdkchilepromotions
-#              - page: Pagos recurrentes
-#                url: /#sdkchilerecurring_payments
-#              - page: Tokenización
-#                url: /#sdkchiletokenization
-#          - page: Colombia
-#            subsubsubfolderitems:
-#              - page: Métodos de pago
-#                url: /#sdkcolombiapayment_methods
-#              - page: Promociones
-#                url: /#sdkcolombiapromotions
-#              - page: Pagos recurrentes
-#                url: /#sdkcolombiarecurring_payments
-#              - page: Tokenización
-#                url: /#sdkcolombiatokenization
-#          - page: México
-#            subsubsubfolderitems:
-#              - page: Métodos de pago
-#                url: /#sdkmexicopayment_methods
-#              - page: Promociones
-#                url: /#sdkmexicopromotions
-#              - page: Pagos recurrentes
-#                url: /#sdkmexicorecurring_payments
-#              - page: Tokenización
-#                url: /#sdkmexicotokenization
-#          - page: Panamá
-#            subsubsubfolderitems:
-#              - page: Métodos de pago
-#                url: /#sdkpanamapayment_methods
-#              - page: Promociones
-#                url: /#sdkpanamapromotions
-#              - page: Pagos recurrentes
-#                url: /#sdkpanamarecurring_payments
-#              - page: Tokenización
-#                url: /#sdkpanamatokenization
-#          - page: Perú
-#            subsubsubfolderitems:
-#              - page: Métodos de pago
-#                url: /#sdkperupayment_methods
-#              - page: Promociones
-#                url: /#sdkperupromotions
-#              - page: Pagos recurrentes
-#                url: /#sdkperurecurring_payments
-#              - page: Tokenización
-#                url: /#sdkperutokenization
-#          - page: Errores comunes
-#            url: /#sdkcommon_errorserrors
-      - page: API de Consultas
-        subsubfolderitems:
-          - page: Introducción
-            url: /#apiquerysintro
-          - page: Consulta por referencia
-            url: /#apiquerysquery_by_referencecode
-          - page: Consulta por orden
-            url: /#apiquerysquery_by_orderid
-          - page: Consulta por transacción
-            url: /#apiquerysquery_by_transactionid
+#          - page: Introducción
+#            url: /#apiquerysintro
+#          - page: Consulta por referencia
+#            url: /#apiquerysquery_by_referencecode
+#          - page: Consulta por orden
+#            url: /#apiquerysquery_by_orderid
+#          - page: Consulta por transacción
+#            url: /#apiquerysquery_by_transactionid
       - page: Reembolsos y anulaciónes
         subsubfolderitems:
           - page: Introducción
@@ -299,6 +225,10 @@ toc2:
             url: /#apirefund_and_voidrefund_request
           - page: Solicitud de anulación
             url: /#apirefund_and_voidvoid_request
+      - page: Consultas
+        url: /#apiothersqueries
+      - page: deviceSessionId
+        url: /#apiothersdevicesessionid
       - page: Errores comunes
         url: /#apicommon_errorserrors
   - title: Módulo Administrativo

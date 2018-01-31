@@ -35,3 +35,39 @@ Advertencia, algo puede salir mal si haces esto
 {: .warning }
 Error o restricción, algo saldrá mal si haces esto
 {: .error }
+
+##### Ejemplos de código
+
+Verás a través de la documentación ejemplos de los códigos usados en los diferentes tipos de integración que te ofrecemos; podras verlos como <code id="codeinl">código en línea</code> o como bloques...
+
+...independientes.
+
+~~~ GET
+Bloque de código independiente
+~~~
+{: title="GET" }
+
+...o anidados.
+
+~~~ json
+{
+  "Bloques": "Anidados";
+}
+~~~
+{: title="Bloque 1 - json" }
+~~~ xml
+<bloque>Anidado</bloque>
+~~~
+{: title="Bloque 2 - xml" }
+~~~ php
+<?php
+$Bloque = "Anidado";
+?>
+~~~
+{: title="Bloque 3 - php" }
+~~~ java
+parameters.put(PayU.BLOQUE, "Anidado");
+~~~
+{: title="Bloque 4 - java" }
+
+Los ejemplos en bloque los verás resaltados dependiendo del lenguaje.

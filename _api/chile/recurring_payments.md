@@ -1,6 +1,6 @@
 ---
 title: Pagos recurrentes
-position: 3.4.3
+position: 3.13.3
 description: API & SDK <img src="/images/illustrations/chile.png" width="50">
 ---
 
