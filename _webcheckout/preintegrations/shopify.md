@@ -56,7 +56,7 @@ Te recomendamos incluir en tu checkout un banner sugiriendole a tus clientes dar
   </tbody>
 </table>
 
-Te recomendamos deshabilitar la validación de referencia única para todos los estados, para evitar inconvenientes al momento de procesar tus pagos.<br><br><img src="/images/illustrations/unique_ref_es.png"><br><br>El check lo podrás visualizar en tu [Módulo Administrativo]({{ "#administrativeothersintro" }}) en la sección ["Cuentas -> Configuración de cuentas"]({{ "#administrativeconfigaccounts" }}).
+Te recomendamos deshabilitar la validación de referencia única para todos los estados, para evitar inconvenientes al momento de procesar tus pagos.<br><br><img src="/images/illustrations/es_unique_ref.png"><br><br>El check lo podrás visualizar en tu [Módulo Administrativo]({{ "#administrativeothersintro" }}) en la sección ["Cuentas -> Configuración de cuentas"]({{ "#administrativeconfigaccounts" }}).
 {: .success }
 
 ##### Flujo de pago
