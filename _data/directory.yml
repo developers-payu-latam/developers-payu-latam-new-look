@@ -229,6 +229,8 @@ toc2:
         url: /#apiothersqueries
       - page: deviceSessionId
         url: /#apiothersdevicesessionid
+      - page: JavaScript de Tokenización
+        url: /#apiotherstokenization_js
       - page: Errores comunes
         url: /#apicommon_errorserrors
   - title: Módulo Administrativo
